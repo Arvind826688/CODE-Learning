@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pathfinding Algorithm Visualizer</h1>
+        <div class="controls">
+            <label for="mode">Mode:</label>
+            <select id="mode" onchange="toggleSettings()">
+                <option value="grid">Grid</option>
+                <option value="realMap">Real World Map</option>
+            </select>
+
+            <div id="grid-settings" class="settings">
+                <label for="grid-size">Grid Size:</label>
+                <input type="number" id="grid-size" min="5" max="100" value="20">
+            </div>
+
+            <div id="map-settings" class="settings hidden">
+                <label for="map-area">Select Map Area:</label>
+                <input type="text" id="map-area" placeholder="Enter location">
+            </div>
+
+            <label for="algorithm">Algorithm:</label>
+            <select id="algorithm">
+                <option value="dijkstra">Dijkstra's Algorithm</option>
+                <option value="a_star">A* Algorithm</option>
+                <option value="bfs">Breadth-First Search</option>
+                <option value="dfs">Depth-First Search</option>
+                <option value="cycle_detection">Cycle Detection</option>
+                <option value="max_flow">Maximum Flow Algorithm</option>
+                <option value="min_spanning_tree">Minimum Spanning Tree</option>
+            </select>
+
+            <button id="run">Run</button>
+        </div>
+        <div id="visualization"></div>
+        <div id="map" class="hidden" style="width: 600px; height: 600px;"></div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="pathfinding.js"></script>
+    <script>
+        let map;
+        let autocomplete;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -34.397, lng: 150.644},
+                zoom: 8
+            });
+            autocomplete = new google.maps.places.Autocomplete(document.getElementById('map-area'));
+            autocomplete.addListener('place_changed', onPlaceChanged);
+        }
+
+        function onPlaceChanged() {
+            const place = autocomplete.getPlace();
+            if (!place.geometry) {
+                return;
+            }
+
+            if (place.geometry.viewport) {
+                map.fitBounds(place.geometry.viewport);
+            } else {
+                map.setCenter(place.geometry.location);
+                map.setZoom(17);
+            }
+        }
+
+        function toggleSettings() {
+            const mode = document.getElementById('mode').value;
+            document.getElementById('grid-settings').classList.toggle('hidden', mode !== 'grid');
+            document.getElementById('map-settings').classList.toggle('hidden', mode !== 'realMap');
+            document.getElementById('visualization').classList.toggle('hidden', mode !== 'grid');
+            document.getElementById('map').classList.toggle('hidden', mode !== 'realMap');
+        }
+
+        window.onload = initMap;
+    </script>
+</body>
+</html>

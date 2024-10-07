@@ -1,0 +1,8988 @@
+[Music]
+
+hello guys my name is nicole of sugranas
+i'm from athens chris and i have six
+years experience building application
+applications in c and c plus plus
+programming languages
+at this tutorial we will learn how you
+can build the search engine in simplest
+plus using
+some pretty fast
+structs
+such as a
+try and a heap
+and in order to achieve a
+responsiveness for our search engine
+
+after
+let's discuss our sections the first
+section will be the section will be
+about the requirements and the
+installation guide
+the second session will be about how we
+can initialize our program variables in
+order for us starting
+writing code about our
+about our structs and our functionality
+search functionality after we will
+write code about our main struct which
+we the try and the map to structs
+
+at the fourth section we will
+create the
+input and input manager
+and where we'll understand the wrong
+inputs
+etc
+and
+the final section we will
+add functionality to our
+program to our search engine and we will
+add some more
+shrugs
+such as max heap
+in order to
+sort
+to sort
+the scores
+and
+we will create
+some basic search functionality for our
+search engine
+so guys
+this is a
+all
+what
+this tutorial is about
+so thank you for your time and i hope
+seeing you at the next videos bye
+hello guys at this part of the tutorial
+we will discuss
+the
+the requirements first of all
+you will need
+to
+know some basic c stuff
+and you have to know some basic c plus
+plus knowledge you have to understand
+how cnc plus plus works what is my log
+but i will explain it
+um
+also inside the project inside this
+project we will talk about
+pipes how you can con
+communicate between some
+different processes and
+we will
+using all these we will
+know
+after all this will know how you can
+create a search engine
+and
+you know a search engine first of all
+a basic search engine
+so
+it is a very very fun project
+but in order for us to start
+we have to
+we have to
+download some tools if you are on
+windows if you are on linux you are you
+will be fine
+so um i will download some basic stuff
+for windows users only and if you are
+really on linux if you are in linux user
+you can continue
+you cannot
+see
+the
+the most part of this tutorial
+so let's begin first of all
+we will need to download vmware
+
+official site
+so
+we go here
+and the vmware is a virtual machine that
+you can download
+so if we press we download like that
+download workstation pro
+and
+if you are a windows user you will use
+this
+and
+and here it will be
+downloaded
+and will be downloaded also in order for
+us to install
+um
+some
+i have already already downloaded here
+as you can see so
+we will
+do we will not use this
+and
+we go here
+we double click
+we press yes
+first of all i forgot i have to
+uninstall it for my system
+yes i forgot to you to
+install program firmware player
+next
+remove
+next remove in order to show you the
+complete installation
+
+excuse me
+give
+give me a second
+
+so now it will be
+downloaded
+i removed from ipc excuse me i forgot to
+do this
+
+um
+so inside this tutorial we will let a
+lot of things will learn how to use the
+um
+how to manage to
+manipulate the console length how to see
+the consonant length
+from our system uh we will learn a lot
+of useful stuff
+um
+that it is really really important
+
+okay now we will install it
+
+you have to accept the terms
+
+you may want to install
+to restart sometimes the computer
+whenever needed i will not use it right
+now in order
+to
+for the tutorial to be
+continuous continuously
+
+so
+here we are
+finish
+no
+um
+
+so
+in here we have to double click vmware
+workstation player
+and here we are i have already created
+the virtual machine as you can see here
+but i will create the new for the
+purposes of the tutorial in order to
+show you
+how you can
+create a virtual machine
+so
+as you can see
+here you have to download the ubuntu
+software for the ubuntu from the ubuntu
+site or any other linux distribution you
+want
+so download
+download ubuntu desktop
+and here
+these are the system requirements you
+have to have a dual core processor etc
+i suggest you
+you either dual boot your system
+
+or
+
+you have either to dual but your system
+if you don't have a very good pc
+because
+using virtual a virtual machine is a
+quite
+taxing for your pc
+hardware
+resources so i suggest you either run a
+virtual
+machine you have a good pc
+if you have a pc with good specs
+especially a processor and ram
+this is what matters
+so you download it here
+nothing let's say it is downloaded
+over here
+i have already downloaded so
+i will not use this
+we go here
+and we go to our iso that it is
+installed
+uh this is our iso that will be 64-bit
+or 32-bit
+according to what your pc is in order to
+see what your
+your what the
+how many uh what the kind of uh
+pc you are running
+you have to go to this pc
+properties
+let's see here it is a 64 based
+processor
+so
+you have to download a 64-bit uh
+operating system in order to
+take advantage of all the resources and
+all the require all the re all the
+resources you know all the advantages of
+64-bit which is
+better memory management etc
+so
+here we press next full name let's say
+i will use this so
+temp
+temp
+temp
+temp
+
+machine
+temp
+bros i don't want to use my c drive
+
+with
+vmware
+new folder
+vm2 a temp
+temp vm
+inside here
+next how much disk
+disk you want to allocate i will say 20
+gigabyte
+and
+when split virtual display multiple
+files it's a better choice
+
+yes
+so now we can customize our hardware
+i i will um because i have 60 16
+gigabytes of rams and maybe i will i
+will allocate
+eight to my
+uh
+to my
+virtual machine
+and because i have a 16 chord processor
+i will allocate 12 8 chords
+16 threads processor i will allocate
+eight threads
+to them
+to the virtual machine
+i inside the display i will allocate 2
+gigabytes of ram
+because
+in my case i have a 4k monitor
+so in order for it not to
+in order for us to have any kind of
+bottleneck in any in some application in
+three applications you have to
+activate accelerate 3d graphics
+it is very
+important
+and specified monitor settings i will
+use only one
+at this at this tutorial i will use what
+most of you will have it's a
+1920
+times 1080 pixels
+so close
+and finish
+now the vm will do
+all
+the job for us
+
+download anything that is required but
+remember that before all this it is
+better for you to
+restart the computer as it is suggested
+by the vmware
+
+[Music]
+now it will a
+it will run through the configuration by
+itself so now we will wait a bit
+
+i am
+
+and now
+it will copy all the ubuntu all the
+necessary bundle files
+and remember guys now it's like if we
+are running a secondary pc
+inside our main pc
+so if we press here and press full
+screen
+uh
+manually it would go full screen
+before this
+and maybe because it hasn't configured
+the screen yet let's wait a bit
+
+i will use a 18.04
+ubuntu
+64-bit software
+as you saw before
+um
+
+here if you press
+the
+arrows you can see some different
+
+um
+excuse me you can see some different
+tips how to use the
+the ubuntu os
+it has some
+pre-installed software
+such as firefox
+a library office
+you can customize your appearance
+the language support it
+has a lot of language
+that are supported by the ubuntu
+software
+so we have to wait a bit
+
+hey also for this tutorial we will use
+any
+an editor
+but you can also use latex but i suggest
+you using an editory linux
+because after that we will create a make
+file as well
+so
+um the
+editor that will use this
+visual studio code
+who have used the same method previews
+our previous tutorials as well
+it's a free editor that's why i'm using
+it also everything that i'm using is
+free including
+them
+you can install windows 10 if you want
+for free but it will
+say here that this is not activated but
+you can fully
+uh use them
+without any problem
+moreover
+the vmware is absolutely free because we
+are using the noko and the
+non-commercial use
+only
+version
+and
+finally
+
+of course the ubuntu software is free as
+well
+but you can donate to it to support the
+cause of linux and ubuntu distribution
+of this linux distribution
+it's retrieving the files right now
+
+and now we all the language packs are
+downloaded and after we will configure a
+
+will configure
+the installation the vmware workstation
+installation
+
+foreign
+uh this tutorial i will make you a quick
+a quick walkthrough what we will do
+if we will create an algorithm
+that will count
+how relative
+how relative
+a certain
+a certain
+file is to what we are
+searching to the key to the search key
+that we are
+that we are
+we typed
+in order to
+in order to show to the user
+the most relative
+paths
+
+they
+excuse me then
+we will use also a really
+fast
+um
+a really fast
+type of struct which is called a try i
+will show you right now very fast try
+a tree
+and
+so a try
+as you can see let's say we have
+the word to
+first we go to t
+after we go to o
+and if a word like that is given
+then
+we will write down where to
+where to
+is fi is found inside our pro it's out
+our files for example in folder
+cc in file c dot txt it's found it's
+
+found the word two at
+certain lines
+
+for moreover we will create some other
+very useful
+stuff such as
+how many words there are in our tree in
+our
+excuse me in our documents and how many
+letters
+and
+some pretty cool stuff as well
+so we are pretty close to
+we are pretty close
+
+first of all you in order to
+
+in order to have the cursor released
+from the vm you have to press ctrl alt
+and it is released
+right or left no problem it's the same
+
+now
+the all the tools are installed so we
+have to wait a bit for that as well
+
+the time
+for search
+is
+a login
+for the try
+and it's pretty fast actually
+and
+[Music]
+for the try pretty pretty fast
+so
+we use this type of struct in order to
+achieve a faster
+a faster faster
+searching time
+and
+my my
+my
+how i'm seeing this program run is uh we
+have a main a master thread a master a
+process where it will read
+everything from the keyboard
+and then i descent and
+then
+yeah
+it is
+sent
+to
+we have a worker processes where these
+processes are
+actually reading
+what the master thread sends searches
+through the document and
+gives back the answers each worker will
+have a certain folders to read for
+example three or four folders for
+example
+and
+it will be
+balancing between them in order to have
+
+a correct way to search and not have um
+
+a correct way excuse me to
+in order to have
+all the workers the same time to search
+in order to be faster
+so here we are everything is ready as
+you can see it's full screen you can
+press here full screen at this full
+screen it's like if you are using a
+native ubuntu installation inside your
+computer it's pretty fast
+i'm not gonna lie
+vmware is pretty fast
+so now we are
+getting prepared
+as you can see everything
+everything is ready
+so inside
+here we are uh
+ubuntu is saying he's saying to us
+where everything is located and how
+we'll use
+if you're not familiar you ubuntu
+i suggest you search some
+post the tutorial and search some things
+f
+
+actually let's go back
+
+okay
+everything is
+done
+and now
+we we want to download some pretty
+important stuff in order for us to run
+as plus plus
+
+so first of all you have to go to
+ubuntu software
+and
+here there are
+some developer tools if you press here
+and if we don't find visual studio code
+here
+
+if we don't find results to code here we
+will go from mozilla firefox and we
+found it here no problem and we press
+install
+we give our administrator key our sudo
+key
+otherwise
+and we will wait till it is installed
+
+this is stolen right now
+
+and we can install our ubuntu software
+right now
+actually maybe i should have pressed
+this later
+10.
+actually cancel we will you can install
+it on your own because i think we have
+to ins we have to
+re
+restart our vm and i don't i don't want
+to use it to do it right now
+we will wait till the visual studio code
+is installed
+a few moments
+
+ubuntu is pretty cool for development
+purposes
+especially in cnc plus plus because most
+most
+scenes plus software
+and
+will be run in
+linux distributions so i suggest you uh
+it's better to write
+c programs in running in linux and not
+in
+an authentic plus plus and not in
+windows for example because it has some
+different
+some different functions in windows but
+every program that is written
+in windows can be written in linux and
+vice versa
+it's if you change some functions if you
+see my other tutorial about how to build
+the keylogger i have
+stud
+have written
+i have i have
+recorded about 20 minute session how you
+can create
+a cross-platform function
+a close platform excuse me
+
+how to make
+
+the program cross platform
+
+now we will launch it launch it
+
+so it is launched
+and now
+as you we will use cnc plus plus
+and we want to
+as we will use cnc plus plus we want to
+download the la some language tools
+so since i suggest you cnc plus plus
+intelligence dividing code
+dividing here
+which have
+[Music]
+some pretty cool
+uses it supports gdb and supports a lot
+of stuff
+first of all but first of all i want to
+first of all i want to show you
+something
+so let's create a new file
+include
+first of all let's save it to the
+desktop because we will erase it later
+as a temp dot if
+then
+dot
+cpp this will be a class file include
+
+iostream
+and
+main void
+here and a of course we want to
+use
+using
+namesp
+name
+space
+std
+every time
+and first see out
+
+hello world
+and l
+so
+we want to press as you can see here
+control and
+the tilde
+button so control
+here and we open the terminal
+otherwise i will will not use this
+because i don't like the that much i
+will use right click open terminal
+cd
+desktop and here we have a terminal the
+terminal placed inside our file i will
+have this as full screen
+and
+i will have the terminal in front how
+now we can
+have the terminal always in front of our
+code
+the way to do this is right click always
+on top and even if we change
+the
+the main window
+as i you can see i have pressed inside
+the visual studio window
+even now everything
+even now uh the
+the
+terminal window is not hidden
+underneath my main window so now we will
+run our program g plus plus minus show
+temp
+temp dot cpp
+and as you can see we have to install
+our g plus plus first so sudo
+apt install
+g plus plus
+we have to give our password again
+
+and now
+it is
+installed everything
+according to your network speed
+connection with the time will vary
+
+the search engines that will use just to
+to clarify
+the search it will be accessed by the
+terminal
+but it is not difficult to be accessed
+by the web as well
+it's pretty easy
+but we will not use this
+we'll access it from the terminal
+
+so everything is run
+but because we want
+to install our make file as well because
+we will use an make file
+
+i will
+decide the
+after if i will start from the beginning
+to use the make file make file is a way
+in order to
+adjust using make command just pressing
+make
+like that
+our
+our
+all our
+c plus plus folders
+not folders or our c plus plus program
+will be compiled because and
+at the serious uh
+program where a lot of c plus plus files
+and a lot of uh dot dates headers files
+uh will be present and
+you will see that it is a
+really important in order to have
+the code organized you will have to
+write the multiple windows in a multiple
+different
+c c
+files
+to have the program organized for
+example if you have an input
+manager you have to have a different
+file
+for cpp file for the input manager i
+think this is what we will
+do right now because
+from the beginning i will not do a
+separate video at the end
+reorganizing our code to a cpc plus plus
+in order to show you how you have to
+correctly manage and write your code
+when you're riding a big c plus plus
+c big c plus program
+so
+so as you can see excuse me
+okay we have we installed our make
+folder
+and
+now
+we will rerun again
+our temp and it is
+it is it is compiled without any errors
+so if we run them hello world
+and
+now
+finally
+we have
+to
+create um
+actually i will create a basic cp
+make file but before this i would want
+to i want to install
+our
+c plus plus a intellisense
+
+so install and it is installing right
+now we have to wait a bit
+and it was installed
+it is from microsoft
+and it has a lot of
+a lot of
+a lot of
+help and
+errors squinkles etc
+in order to activate we have to reload
+it
+so here we are
+as you can see cia gives us our
+recommendation because any nothing was
+given
+
+and then
+so
+everything it is perfectly
+installed
+
+and
+now i will create the basic make file
+for you
+and in order for me to do so
+desktop
+excuse me
+
+i will
+show you
+
+this is how i make file it is written
+correct make file this is how
+our fi our final product will look like
+
+so
+let me
+write the simple make file for you for
+this program right here which will be
+very very simple make file actually
+so
+actually
+um
+let's say
+
+um
+ctrl n
+cc equals
+g plus
+z plus plus
+cpp flags
+minus
+mount z minus t
+wall minus wall will be the flags that
+we're using
+default
+temp
+excuse me
+
+i will write it doesn't make file
+make file
+so everything it is nicely
+like nicely presented
+so
+in order to run our
+temp
+will be our
+our
+temp now will be our
+um excuse me uh will be
+what we are heading will be our
+final product
+of the make file so in order for it to
+run temp we have to
+actually let's give it another name a
+project
+zero in order for you not to be
+project zero
+or
+executable
+
+it's better
+so in order for it to run will be temp
+dot o to be compiled right
+temp dot oh excuse me so in order for
+10. to be compiled we
+want cc
+and the flags
+
+right
+like this
+and after that
+minus oh
+and
+this will be
+a
+here
+and we will write our
+name executable
+executable and temp
+temp dot o as as you can see in order to
+run executable we have to
+uh we need temp.toe and this is our
+command of uh the um
+of how the tempo tool will be converted
+to the executable so in order to find
+our temp total we have to go to
+we have to create
+um
+we have we have to tell
+the make file how it can create the temp
+total show them toto
+in order to attempt to talk to be
+written it needs temp.cpp
+terms.gbp and after that
+
+and after the attempt gpp it needs
+
+cc
+this cpp flags
+give me a second and make my minor
+mistake
+and
+of course minus c
+temp dot cpp
+and after we will have a clean function
+where we it will clean all
+the dot
+o files
+
+so
+make ls for example you see that the
+make file is present make
+and everything it is run perfectly now
+
+if we do make clean it will remove all
+the total files
+let me do it again where for you give me
+a second
+excuse me yes
+first of all a
+view
+i
+need to zoom it a little bit
+
+i think like that yes
+i think now you can you will be able to
+see it better
+and
+excuse me for that
+and i will zoom in a little bit inside
+here as well
+zoom in
+like that for you to be
+better so
+right now we have the executable disp
+within stamp if our rent temp
+now we don't have the executive we have
+just our temp gpp
+file
+so
+excuse me
+and our executable
+unless now we have our hourly our
+tempsvp file and make file in order to
+create our executable do we want from
+the temp cpp that it is compiled
+and
+we have to run our make file so make
+and our executable is written
+as you can see ls
+and the temp total is still present if
+we
+press make clean
+the temp dot oh it is
+that we don't
+want to use it anymore it is deleted and
+we have the executable and we press
+executably hello world
+as you can see this is a lot of work but
+you will understand later how important
+it is because we don't have to
+if we have for example 10 different
+files we don't have to manually manually
+
+run
+the talk um
+to manually compile every file of it in
+order to have
+the
+the binary file the total file and after
+we will have a really big
+a line like for example
+c plus plus minus show the name of our
+execute double for example mini search
+and after
+all that we want to add the next to it
+so
+from here
+from here i will show you one last thing
+how you can
+default executable and clean i think
+this is the way
+where
+yes
+when we cr when we do make it goes here
+to the default and after it runs the
+executable the executable contains this
+part
+of
+this part of the
+of
+the make file it runs this part and when
+we call clean
+this part
+is
+cold
+remember
+um
+it is
+at the it's very very important to run
+
+the executable
+to have a make file and a big splash
+plus project because it will take a lot
+of time and effort to divide the code
+after in order for in order to be
+easy for you to code
+and easy for you and the others to
+understand what
+it's a part of your code is about
+um
+so guys i think uh
+that's all for this uh tutorial
+we wrote mini make file we load a mini
+a temp a mini program in order to
+demonstrate to you
+how a
+make file a simple
+make file is written remember that the
+inside here will be a lot of lines of
+code like that
+like that over here
+you may have a lot of
+so imagine if you don't have a make file
+you will have to compile every single of
+these separately which is a lot of time
+and after you have to write all
+all
+all this line down all this line down in
+order for it
+to run
+if you don't have a make file you have
+to write every single line of it and
+finally this line as well
+and of course after that you have to
+delete every uh
+file by yourself
+so
+uh
+so guys i hope you have understood how a
+simple how make files work it's actually
+pretty simple if you get the idea
+the idea
+and how we simply vm
+the vm is work so now we will close the
+vm
+and actually the best way to close is
+press exit
+power off
+and the vm
+is closed
+after
+you go like that here
+and the vm is closed
+
+so guys thank you
+for your time i hope you had fun
+and you understand how much you will
+learn through this tutorial
+and i hope to see you
+at the next videos
+so bye guys
+so guys
+at this part of the tutorial we will
+start writing our project
+uh first of all we will create we will
+write
+the i will do an overview of a project
+and we will write
+they are um what arguments will be given
+when we execute the program
+and
+some
+stuff you will see
+when
+while we are
+continuing well
+so
+
+okay
+
+uh
+
+this will be our main program
+so
+ministers to cpp
+uh we also will create a header five as
+i told you before
+uh we will try to
+have
+the best
+um
+um
+we will try to have the best format that
+we can achieve in order to for me to
+show you
+how what is the correct way to write a
+big project this project will be around
+700 lines so
+it's actually not a big it's a
+medium-sized project but you will
+understand how important it is to have
+your code
+organized
+so
+let's continue
+first of all
+inside here
+we will include
+iostream
+excuse me first of all i will save it
+actually let's create a file in here
+so let's cancel it
+like that new folder
+mini search
+let's put dimensions inside
+okay
+like that
+and inside here we will
+insert
+dot h
+okay here we are
+um
+okay
+actually let's change the name of uh
+
+search engine
+rename
+search engine
+you know in order to be a
+better
+so
+when with other applications visual to
+go select
+
+so
+inside the search engine first of all is
+under search engine we want to include
+um
+and we want to include the
+search engine not to date so include
+
+search engine
+dot h
+include here
+inside here we want to include
+for now only iostream
+stream
+it's a input output stream
+for
+um
+for
+the c plus plus
+for c plus plus program it's a main
+input output stream
+so
+and let's continue inside here
+we will write our
+main program first of all let's define
+uh
+what our
+[Music]
+what our program will be like
+i
+first of all let's open terminal that
+as i told you always on top here
+uh let's rename it to search
+anything
+like that it's better
+
+okay here we are
+and
+so the way i imagine our program
+actually i decided to make it a little
+simpler simpler that
+than i told you so first of all i
+because it will be really difficult for
+you to understand how to handle signals
+etc
+and some
+and not that easy structs
+in just a simple tutorial in
+mini tutorial
+so
+let's zoom in a bit here so i decided to
+make it a little easier for you
+and we will use
+we'll use just a simple file
+that
+will be like the format of it will be
+like that
+excuse me
+so as a
+controller small data set dot txt
+
+so like that
+zero for example
+zero after a
+tab after a tab and here we will write a
+word for example
+hello
+guys how are you i hope
+hope
+you have fun
+okay we can write a lot of stuff here
+like that and when we change the line
+for example
+let's copy this
+as you can see it's a big line right
+here this will be a document
+after we press enter
+we write one this is the second document
+
+i love to play video games
+and for example this will be an article
+about video games
+and after three
+um
+high boys
+um this uh tutorial would um this would
+
+excuse me
+right here
+this tutorial
+will
+be about
+um
+some important
+structs
+
+so
+um
+
+this will be our database for example
+our data set excuse me and
+our
+our program will search through this in
+order to find in order to find uh the
+correct
+which articles
+it's each one will be a document an
+article which a document or article is
+most relevant to the search query that
+is given
+so
+when we start our
+when we start our program
+the way to start it i suggest is
+something like that
+for example
+search engine
+minus okay the dot dot
+small data set dot txt
+um
+actually minus d that minus is better
+from document and minus k the number of
+documents that will be shown
+according to the algorithm so
+if we press three the three best
+documents will be shown
+this is the way i imagine our
+our code
+are not our code you know our
+
+this is the way i imagine
+our program
+and i hope i'm sure that we will achieve
+this
+um
+so
+
+and
+so
+[Music]
+let's
+begin
+first of all as i said the way that we
+will write this search
+search engine for example minus the
+document
+dot txt for example some document
+minus k
+and
+a number
+how
+many
+results will be
+returned
+so
+first of all let's
+check the arguments
+show
+in main
+void
+like that
+and inside here we will check
+
+let me check again search engine
+search engine
+um
+managed
+some kind of dock.txt
+document.txt
+first of all let's have it at full
+screen
+moment
+and let's have it
+to be a little longer
+this is a
+an example at how it will be shown it as
+i told you at the previous tutorial it
+will be always on top
+but for us to have a better
+um
+in order for us to
+um excuse me
+for us to be more visible because the
+terminal from
+here it's not that visible i don't like
+that i don't like it that much but
+actually it is useful but not that
+visible for me at least
+actually i will increase a little bit
+the size of the letters like that in
+order for you to be
+more
+you can see it better
+and for example
+here
+we want to check
+um
+how we will take the arguments from here
+this is our program and these are the
+arguments the way for us to take it is
+int arg c
+car star star arc v
+excuse me
+this is the best way to solve it
+so
+rxe is how many arguments are given
+so here are given one because this is uh
+this is
+a recall as an argument this is counted
+as an argument one two three four and
+five
+so
+if
+rxe
+zero
+different five
+c out
+actually we forgot to use a namespace
+using name namespace std
+
+see out
+wrong
+arguments
+i will do another demonstration to you
+first of all after we have to create a
+make file of course
+um naming file is very important as i
+told you at the previous tutorial
+so
+make file
+like that and inside here we will write
+cc
+equals
+g plus plus
+cpp
+actually we won't use any cpp flags
+only if we want to debug
+a minus g minus g i think is
+is for debug
+dividing purposes
+default
+um default
+will be
+a search engine
+excuse me
+uh search engine
+and clean of course because we don't
+want all of all the dotto files to be
+present after we have compiled
+and and so let's begin search
+engine.cpp.o excuse me
+and inside here will be
+
+minus minus oh
+um
+search engine
+and we want um
+the search engine to toe to be present
+so changing dot to be present okay and
+in order for us to
+find where the search engine
+is
+we want to
+excuse me like that
+search engine
+uh search engine to tpp
+and
+search engine dot dates of course
+this is not uh
+this is not uh
+important but we use it uh just for us
+to be more clear
+what it is needed for this to compile
+and to achieve this
+so
+like that
+minus c search engine
+cpp execute yes i think this is correct
+
+so if i press make
+i forgot i have forgotten to install
+make at this
+machine
+
+oh my god sorry
+
+give a second for me
+so
+yeah i forgot to
+make the clean as you can see because i
+haven't used the clean
+doto is present we don't want this
+so
+let's
+let's clean
+it clean rm
+excuse me rm
+start.o start.o means that we will
+delete every file that has a
+um
+that ends with total
+attention with the toe so make
+so i ordered only the though it's called
+as you can see excuse me as you can see
+the toe is not present and if i run
+search
+
+engine okay give me a second
+
+this is just a way to show you how works
+how arcs
+how rxc
+is working
+make a gen
+so
+like that
+minus the
+dot txt because we haven't checked it
+minus k two correct args but if we have
+given four x wrong argument and it is
+fine
+and it works perfectly
+so after we want to check um i'm going
+to check
+some
+other stuff as well
+so
+in order for us to be sure that the
+arguments are correct of course
+so
+[Music]
+we want to check if the letters are
+correct
+
+and
+give me a second to find out what we'll
+do next exactly
+
+um
+okay
+um we will
+check if
+the minus d and minus k is present
+so strcmp
+in order to access each one of these
+individually we have to go here archive
+0
+like that
+arc the
+0 is that
+here
+arc of a
+arc of a one is minus the argument two
+is that arabic three is that and et
+cetera
+equal to it
+it will continue so
+strcmp
+
+archive
+one
+
+minus d
+
+stmp returns zero
+so
+um
+
+yes it returns zero
+
+so now you will see
+that's the arm cmp
+minus d
+and that's the arm cmp
+minus k
+
+uh str cmp
+arc
+3
+minus k
+outro garcuba
+
+in order to use strcmp where we have to
+include the
+c string
+
+uh if i remember correctly
+yes
+and like that
+it is a wrong argument because we have
+given the last it's correct argument
+if we change that with for example f
+wrong arguments
+as you can see
+so
+after we have to
+give and
+actually when the wrong arguments are
+given
+like that
+we will return
+the program return
+we will close the program so return with
+an error code message
+return -1
+
+ok
+after
+we want to check
+
+we will
+[Music]
+actually we will
+a toy
+that we will
+using this we will
+return a number
+so for example
+so
+if we have
+see out
+let's say
+please wait
+please
+wait
+because it will you will need some time
+for the program to
+initialize the database to initialize
+our structs so we'll say the
+user to wait in order not to
+write anything to the keyboard
+and
+um we'll need some numbers in order for
+us to
+in order for us to later access the try
+and the map
+and
+so
+how i'm imagining
+the
+um
+how i imagine
+uh the program so we have the small data
+set here not looking like this like this
+here we are so every the every line of
+line of it it will be stored to them to
+the memory
+and in order for in another for us to
+to access it faster
+so when the program initialize it start
+every
+every
+every line of it every document of it
+will be stored in a map
+on
+the memory
+and the try will define each word where
+it is stored exactly
+at the document inside this document
+a word is defined
+by
+a word actually is when
+it is separated from the previous or the
+next with a space
+this is what the word is
+for example this
+this is not a is this is one word not
+two words document text
+so um
+this is
+how it will be done so so we need when
+we count when we get the launch from
+here in order to initialize the map
+correctly and try correctly we need to
+know how many um
+how many
+um excuse me we need to know
+how many um
+what is the bigger the biggest line
+first of all in order for the map for
+because the map will be actually an
+array let's say
+of um
+of different documents
+so
+uh we're going to need what is the
+biggest line in order to initialize
+every time the biggest line and after
+we're going to
+um
+we want to know
+what is
+the number of lines in order to
+malloc to allocate memory for
+the
+for the correct amount of um
+the correct amount of
+excuses
+to allocate memory for the correct
+amount of lines
+for the map so after this
+
+let me close this perfect
+so
+we will need a line counter in line
+counter
+
+will be equal to zero
+and
+in max length
+will be equal to minus one
+and we will a toy
+the k
+a toy means that we will convert it to
+an integer string to integer
+in k equals a toy
+
+so
+let's see out okay in order for us to be
+sure that it's correctly converted
+
+uh i haven't made it again make
+two
+if i press
+as you can see it's perfect
+so
+after that we want to read the sizes we
+want to
+so now we have finished with
+the main
+
+now we have finished uh
+
+excuse me
+yes now we have finished
+and now
+we we need to
+to read the sizes
+of
+of the document of this document here
+the small data set for example
+so
+the way to do this
+um
+um actually
+we as we have finished uh
+um
+the way to do this okay let's let uh
+let us do
+something um more
+
+we will check of course
+if the file is correct we will check it
+really fast here file
+file star
+file
+equals f open
+um
+
+i think
+and we want to open
+to read
+this file
+so if file equals equals null means that
+the file is not opened
+so
+c out
+that we will tell to the user that the
+file that
+is given to us it's not correct
+error opening
+file
+and then
+so
+actually
+let's make it first
+error opening file if we if we press
+here small dataset.txc that exists
+
+please wait nothing
+nothing is returned so the file is
+correctly
+opened but
+of course when we open a file of course
+every time we have to close it
+f close
+file
+so
+right now
+we have managed to
+to write the simply make file we have
+managed to
+read the input
+to read the input correctly
+and
+okay i think that uh
+at the next tutorial uh we will uh try
+to
+we will read the size of uh will it
+every line and how
+long
+is um
+is a file the small data set and after
+we will uh
+to pass it to the map
+and we will split the words into a try
+of course first i will have to explain
+to you what the try is it's not an easy
+task for me to explain
+it's a difficult
+not too difficult it's but it's a struct
+and more advanced track that it's used
+mainly because it is very very fast and
+
+i i think that if we have time at the
+end of the project we can do
+[Music]
+some modifications to the try in order
+for
+for us to achieve even better times than
+what we have what we will achieve
+we will achieve
+and
+so guys
+i i hope
+[Music]
+you
+you are interested in this project
+because we will learn a lot of cool
+stuff how can we can see how how big
+this uh how big
+um
+the terminal is in order for us to
+underline the correct words
+from the search query etc it will be
+very interesting
+and
+i will
+i will
+see you at the next video of the
+tutorial bye
+hello guys at this part of the tutorial
+we will try to initialize
+our um
+our map and our try our map i actually
+tried the different video
+think
+so
+let's start first of all this part here
+red erase it for
+a moment
+i
+[Music]
+i write it quickly in order for you to
+show
+how we can check all the arguments but
+we will uh integrate into a different
+session in order
+uh
+for it to be
+better
+um
+so
+
+so let's begin first of all we will
+create
+a new cpp folder which will be called
+red reading protection
+with input.gpp
+and another one i10
+which will be called read
+input
+with input.8
+and
+what else
+actually i have made a mistake over here
+we have to
+[Music]
+it is common use when we refer to a
+folder
+a file excuse me cpp or h to have
+um
+caps lock on
+and not
+the first letter at least
+like with that it's commonly used like
+this
+so
+i just delete the search engine at the
+data square
+and we will
+file open folder
+and we will open this here
+like that and now we'll delete this
+
+like that like that actually
+
+this cannot be shown of course
+
+so
+and
+we have the search engine and search
+engine we have these two
+so read input.gpp entering the input.ht
+
+so first of all we want inside here to
+include
+include iostream again of course
+
+include i um
+iostream
+i can iostream we're going to include
+[Music]
+actually we'll see later what we want to
+include
+and inside here we want to include
+excuse me
+um
+i want to include the
+read input.h
+and we want using namespace
+std of course always
+and we want to read the sizes
+as i explained to you at the previous
+video inside here we want to read
+how big or uh how big is it how many
+lines has the document inside in order
+to allocate the correct amount of memory
+and what is the bigger
+align
+bigger line
+so
+inside here
+we want um
+actually we want to connect it with the
+cpp so inside insights are changing
+inside the search engine
+you want to
+include the reading boot updates
+like that include
+
+reading boot
+updates and
+inside
+um
+so
+we want to read the sizes
+in order for us to read the sizes this
+is this is what the sizes represent so
+in order for us to do so
+and
+we have to pass
+the sizes as arguments
+inside the read sizes
+but because we want to use them again
+we want to pass the exact memory
+location of these two
+because if we pass them like that for
+example
+read
+sizes
+sizes
+and
+line
+line counter
+max length
+and we pass of course they are this
+argument over here
+[Music]
+hardware 2.
+every changes that will be made inside
+here inside the read sizes function it
+will not affect these two so we won't
+know the exact uh
+um exact number of these two uh the main
+program so we want to pass the memory
+location
+of
+excuse me of these two in order for us
+to know
+and what is um
+what what the changes are so we go here
+read sizes and
+because we have passed the arguments
+like that in star
+instar excuse me
+line counter
+in star
+in star max length
+
+and of course car star
+and
+dock file
+like that perfect we have to pass the
+definition of the function
+and the declaration of the function site
+during the input dot
+h so
+it is a int a
+function that returns in type of
+variable
+read sizes
+and star line
+we go like that
+here
+excuse me like that and
+it is perfect
+um
+in order uh for
+excuse me in order for
+this file to know when
+dot dates is passed
+in order for this file
+and where we are
+here it reads the reading booth dates
+reading but it is right here
+and cpp includes read input rotates so
+uh dates here knows that read sizes is
+present inside here
+and
+of course we want to
+make file
+to
+to write the make file right here
+so
+in order to
+as i said before we need search engine
+tool but as well when we need ring the
+input total
+so like that we are here
+first of all
+we will change something
+
+it is better that way
+
+i think like that
+so here we are read
+input
+o
+and here we need a
+read
+input.oh like that and we need to create
+the reading put the toe
+and so in order to create the written
+toe
+reading dot
+o
+read input.gpp
+read input.8
+c
+excuse me cc
+minus
+minus read input dot cpp
+
+what is include search engine
+yes inside here the correct way is that
+
+so everything is compiled perfectly
+i read sizes you can see how
+it is compiled uh very nicely actually
+placed make file at the last
+here
+at the
+search engine right here it's
+better organized see how
+high
+
+hi as you can see it's perfect
+so
+high or
+perfect
+so inside here inside read input we want
+to check
+um
+[Music]
+we want
+
+we want to check again if the file is
+correct
+so file
+star file
+equals f open
+doc file
+r
+so um
+if
+file
+equals equals null
+again
+c out
+error
+opening
+
+file
+and then and we will return to the main
+for to the main
+function -1 so we want to change this
+um
+like
+want to change it like that so
+if
+read size
+if
+-1
+
+equals equals minus one
+
+just it will just
+return
+actually
+let me
+um
+because we have two different uh
+
+times that it will return minus one when
+the folder is empty or um
+um where it is or it is there so error
+opening file
+and
+
+see
+okay it will just return a return -1
+here
+perfect
+[Music]
+what else
+and of course right now
+um
+resizes and
+now we will create a a buffer
+a way to read its line separately
+so we because we don't know what is the
+length of each number of its line
+because it will vary a lot
+such as
+for example this line contains
+let's say 1000 characters this contains
+20. so
+we have to
+find a clever way in order to
+achieve
+a correct representation
+of each line so
+the to
+the length of each line
+so we will have
+right here
+and
+an array
+of
+lengths
+and the way to do that is like that
+will have a
+line counter
+an array of lengths
+
+actually we will do it universally we
+will just have
+we will just take the biggest line and
+allocate the memory of the biggest this
+is not very good but maybe be able to
+fix it later we will be able to fix it
+later
+if
+if we want
+it to
+so
+let's begin
+so
+car start
+i'm actually it's better to do it here
+car star
+um
+
+excuse me guys
+sorry for that so
+um
+we are
+um
+so we want now to create the buffer the
+way to do its cursor line we
+initialize
+um a buffer a variable with null
+
+with null after
+
+okay
+after that
+we
+
+um
+after that we have to initialize a size
+buffer
+size size the um
+would be
+this would be let's say
+um
+a buffer a false buffer because we'll
+not use it anywhere
+we will use it only just for the
+function to return the size of the line
+that has been allocated
+so
+um
+let's say
+false buffer fault buffer let's call it
+because we will not use it and now at
+least because later we may use it
+car length
+so
+we want to read every line of the
+document until there is no more lines
+so while
+minus one
+the um
+minus one
+different
+car length
+get
+line is a function that it is used
+um
+um
+that it is used mainly
+for to get its line
+the way to
+read this to um
+i i think that
+it is inside io stream or c string i'm
+not i'm not
+sure
+so
+get line
+we pass the line we pass
+the
+false buffer
+and
+finally we pass the file that we want to
+read from
+perfect
+and inside here
+
+give me a second
+and
+and inside here we will
+every time we see a line we will
+increase it
+this remember guys this is just just
+used
+to
+count how many lines we have if there is
+no other way to achieve a
+and
+a program that it is a well allocated
+has a
+has fine memory allocation without doing
+this so we lose a little bit
+on initiation time but we gain a lot of
+memory management
+so if
+star
+max length
+minus car
+length
+
+so
+what we are doing now
+max length is the
+length of
+each line okay
+the biggest line excuse me so max length
+is initialized with minus one right
+so we are saying if the car length is
+what is the length of the current line
+uh
+read read
+by the gitline function from our small
+data to txt file
+
+excuse me
+for our small dataset to textify
+so
+if our car length is bigger than our max
+length then we want to change our max
+length with the current length
+after
+we want to
+increase for its time
+and
+we're going to increase the line counter
+for each time we read the new line in
+order to increase this buffer
+and
+after every time
+remember when you we use this function
+where we want to
+free the line first of all we want to
+null the line
+because it may contain some
+
+some stuff that don't want to you use
+and
+moreover
+and
+we want
+to
+false buffer
+equals zero so what false buffer does
+false buffer
+when when
+we this is um how memory will be
+allocated will be allocated
+so
+if get line
+get line if force buffer was 10 it will
+get just 10 characters if false buffer
+is 0
+it will allocate as many characters as
+needed till we till we reach
+um
+the slash n
+see
+since
+we meet the new line character
+this that's why we use false buffer zero
+after of course we want to close the
+file close
+excuse me f close
+file
+we want to free
+the line
+okay and now we want to check
+if
+line counter
+equals equal 0
+or
+max length
+minus minus three so we're using max
+length minus three because
+this means
+actually here
+this means that
+so first of all if line counter 1 0 this
+means this is empty this is like that so
+no point in searching
+and accepting any kind of query
+if the li the max length was minus 3
+each tab is counted as a space so
+um
+if max minus 3 this means the this means
+that
+the biggest line was like that
+so the document will be empty so there
+is no point in searching again
+inserting anything again inside here
+so and this is
+why we are using this
+um
+so
+and
+inside here we will write
+um
+what will we write here we will write
+um
+first of all if nothing of this is true
+we'll turn one okay
+here we'll write c out
+
+i will write
+a dot
+document
+does
+not meet requirements
+
+so
+let's check it
+search engine please wait and after
+after let's say here
+we will write a
+see out
+
+like that
+also to have
+a more beautiful
+piece of code
+mission line initialization finished
+we're right here and right here we
+will return one of course
+so
+let's make
+and let's run initialization finished if
+we
+erase everything inside here
+documents empty does not mere
+requirements
+and initialization is not finished as
+you can see if we write like that
+if we it is like that
+and no need for that my bad
+so as you can see we have done a mistake
+i have that mistake so the length will
+be one two three four
+four
+uh actually actually let's write here
+what is the max length over over here
+um
+line counter
+see out
+line counter
+
+max length
+
+so
+let's make it again
+line counter 1 max length ma 5
+so
+like that it is 5 so if i change this
+to 6
+i forgot to make it
+document is to empty but if i write
+something
+
+perfect max length eight
+
+remember that we will use only this
+right here
+nothing more
+[Music]
+so
+
+um this is what we'll use actually
+we will
+we can erase
+because line counter once was one okay
+we can
+erase
+some after after when we when we do the
+mapping
+we will check
+we'll check if everything is correct
+because
+this has to be
+correctly put together etc it will not
+be
+a simple um
+it's just a simple
+document so let's write like that
+and
+okay
+everything will should be
+um
+after
+um
+actually let's delete those two lines we
+um actually the initialization we may
+need it
+with the line counter max lens we don't
+need it
+so
+perfect initialization finished
+now
+actually i want to
+test something i will give it to it a
+different data set
+home desktop
+actually
+let's give it a bigger data set just for
+a moment
+i have a on my computer give me a second
+um
+
+let me delete this
+press it not all purpose
+and
+big data set right here
+
+okay like that so um
+
+like that max length for 26
+the big data set it's a txt that will be
+given to you
+that will be given to you open with
+other applications also to code select
+it actually as you can imagine a
+enormous
+and now we will try to run it
+um
+make
+
+big data set
+what i made
+a mistake yes
+
+like that line counter to
+2225
+and max length 25 491
+max length of
+[Music]
+of the of a line of a document
+so line counter max length work
+perfectly
+we may tune a little bit the max length
+because after inside the mapping process
+because we won't
+need to have
+the
+five or six i don't remember correctly
+first
+first uh
+where where it is
+we don't need to have these two first
+and we may change our protocol without
+the space we will see
+um
+actually
+let me see a little bit
+
+um give me a second i think i have made
+a mistake over here
+
+as you can see
+minus t is not counted as one inside
+here
+okay no problem about this as it is a
+txt file we will keep it like that
+so guys i see you at the next tutorial
+we will
+write um
+we will
+write how we can write the map down
+and it will be pretty interesting trust
+me
+so bye guys i see you the next video bye
+hello guys
+now we will
+try to
+pass
+to create the map
+so in order to create the map first of
+all we want to take advantage of the
+line counter of max and max length
+variables
+that
+we
+managed to
+to read from the last
+video
+so
+what we will do right now is
+we will create
+a new struct
+which will call be called my map
+and inside this track
+we will initialize the struct and some
+new stuff so in order to initialize the
+start the start the
+excuse me the map
+will be called my map star my
+map what we need to initialize it
+correctly is
+is the line counter
+and the max length as you can imagine
+after of course we haven't
+created it yet so that's why the errors
+actually let's create it pretty fast in
+order for for for a
+rather for us to be error free
+so um
+now i will show you how you can create a
+class
+uh my map will be class not extract
+would be a class and now we'll show you
+the correct way to write down a class
+and
+write down a class
+so i will
+we don't need the read input anymore
+the search engine i think
+
+what else
+we'll need later the read input
+
+and
+so the search engine
+we needed so now we will create
+um
+give me a second we will create the
+header file of
+the map
+map.h will be called
+and we'll create a new one we'll call
+map.cpp
+inside mac page we want to
+include
+ios
+iostream
+
+and of course
+because we could use my lock when we
+want to include the steadylib std
+clip
+like that
+later we'll let's see what we want else
+to include
+furthermore
+and now we will
+using name space
+stt
+like that
+and now we are beginning to write the
+class class my
+map
+
+like that
+and we'll have
+in size
+oh my god by my bad in size
+this would be
+this would be the size the number of
+documents
+
+and
+
+here we have to write like that
+in
+a buffer size
+will be
+
+this will be the length of the biggest
+document
+
+like that
+now we want to have
+different var different
+array we have we want to have an array
+of strings
+for each document each index of the
+array of a string
+which would be an array of strings each
+index of the array of strings will be
+will be represent as a different
+document so car
+star star documents
+its document
+
+and right here we will have the length
+
+of
+its document
+yes excuse me
+
+of its document
+so now we'll write the main functions so
+
+so
+now
+my map
+this will be the constructor in size
+int
+buffer size
+and this will be the destructor
+
+now we will have to go to the cpp folder
+and we have to include
+include
+map to date of course
+and we want using the name
+space std as always
+
+the search engine inside here we want to
+include
+include
+mapped h
+so now a new my map line counter max
+length
+
+is inaccessible white is inaccessible
+um
+
+yeah because i forgot to write the
+public part
+public
+like that now it's perfect now we
+declare
+if you know surplus plus on basics plus
+you know that these are the variables
+that are not visible
+uh to the outside world of the class
+and it's only visible inside the class
+inside class functions um
+and these are the public parts where we
+will set will
+have certain getters in order to access
+these variables
+and
+so we go here the search engine i think
+
+it is not inaccessible right now
+i don't need you know it is not
+inaccessible right now maybe it hasn't
+um
+been new yet
+um
+so my map
+as
+we have to go here and this is how we
+declare function
+so
+my map
+my map
+in size coma
+into buffer size
+like that and this is in this
+initialization list
+and this
+like that size
+size
+buffer size
+uh buffer size like that
+so as i told you before
+uh
+why what is the
+i will explain to you as
+the
+the best of my abilities what we are
+doing at each line
+so
+
+it is here my map
+it return
+this this is called here an
+initialization list this
+line
+it says pass
+this size and buffer size
+are not the the size and buffer size of
+their other size the buffer size that is
+passed through the user
+um it is so it is these two two
+integers
+so we are saying that the moment that my
+map is going to run
+first initialize this this dot size with
+size and this dot buffer size with
+buffer size with this
+it would be equivalent to write this dot
+size equal size
+this would be equivalent
+so
+now
+we're going to allocate some memory for
+the documents and the links of course
+and after when we destroy
+the map when the program is closed we
+want to de-allocate it of course
+so
+document excuse me
+document
+equals car start start
+
+my lock
+size
+size of
+car
+start
+
+these would be the same
+actually it's better to write this dot
+size
+
+and
+lengths
+equals install
+my lock
+size
+size of
+integer
+so now we have told that
+
+size is a line counter so we have said
+that there are this number of documents
+and
+inside the length array there are
+10 for example a number of
+different length sizes
+so
+after 4
+and i equals zero
+i my
+size i plus plus and inside will
+initialize it's a document it's stringed
+with a
+proper size
+so documents
+of i
+equals
+car star
+malloc
+buffer size
+size of car
+now we have allocated the appropriate
+memory for each part of the document
+for each document excuse me not each
+part for each document
+and all the document array and not the
+lengths array after we want to
+be sure
+and
+yes we want to be sure
+that
+my map
+when it's destroyed
+as you can see here
+when it is then my map is destroyed we
+want to be sure that every memory is the
+allocated
+in order for us not to have any leaks
+and to not have any security
+uh
+problems
+uh security and other problems
+so the correct way to do that is my map
+
+like that
+my map
+and
+4
+and i equals 0
+i minus size i plus plus
+we want to free
+its documents
+of i so remember when you allocate the
+memory like that first you allocate the
+the i index and after it's uh
+it's a
+element of the array
+separately then you have to allocate it
+the reverse way
+uh first you have to allocate its
+element of the array and then the whole
+array
+um
+so
+so free
+first
+we allocate the each element the memory
+of each element and after we de-allocate
+the whole the whole array
+three documents
+and three lengths
+like that
+so
+and what else now
+um
+as you can imagine
+i don't know why this is still red
+not date
+and
+sometimes it bugs a little bit so
+if i close it and reopen it again i
+think it will be fine yes but sometimes
+guys
+so it is perfect after
+as i told you every time you have to
+pass the cpp file
+to them
+to the make file
+and so here
+would be map.o
+here will be
+up to toe
+and
+here
+the map.o
+map.gpp
+map.h
+um
+like that
+minus c
+map.gpp
+and i think it will be perfect
+
+map that's research interred input
+and everything
+runs smoothly
+and
+um
+inside here of course we want to
+delete my map
+before we
+destroy anything we
+before we
+close our program and then we will check
+if i will show you a very cool trick a
+very cool tool
+that i use in linux in order to
+determine
+um
+a phone in order to determine if i have
+any deallocated
+memory the tool i use involved grind
+
+so sudo apt get installed
+
+[Music]
+file falcone
+
+um
+upgrade is already the newest version so
+okay we have already
+installed valgrind
+so
+this is
+uh the level grind it's used valgrind
+minus minus lake minus check equal yes
+of course
+it has a lot of different arguments that
+you can use but i use i will show you
+only these there is a way that you can
+see every last part of
+the memory
+and it is pretty useful
+and
+[Music]
+so what grind my mind is like minus
+check equals yes
+and
+search engine
+search engine i think
+[Music]
+search
+engine minus the
+
+small dataset.txt
+um
+
+unless how i'm calling it
+yeah search engine
+yeah
+ah yeah i think it's like that
+yeah okay
+search engine small data set
+txt minus k2 for example
+as you can see
+i will increase the font a little bit it
+says that
+15 unlocks 15 freeze so all hip blocks
+were freed no leaks are possible so we
+are
+we have
+um pretty nice memory management till
+now at least we'll use this tool because
+this
+project that a lot of memories are
+located we don't want to have a memory
+id and not the allocated and have leaks
+memory leaks it will be
+not optimal for our program
+since we use a lot of different
+structs
+a lot of memory from the system
+so
+and now we have created the map and we
+have deleted and we want to read the
+input and
+here we are
+we are saying
+right here
+read
+input
+my map
+com
+aggravate2
+like that and we go to
+the rent input rotates and the rene
+input dot cpp
+and inside here
+we will write
+the
+the read
+the read input
+function
+so
+let's begin
+um we go to read input we have the read
+sizes here
+and we go after a little
+lower and let's begin and
+read input
+my
+my map
+start my map
+and car
+star dock file
+so we will again upload the file because
+we have checked before
+of course we have
+to include inside here the map
+and we have a conflict later i will show
+you
+inside here we have to include the map
+include
+map.h
+and here you will see the conflict
+of make
+
+redefinition of class my map
+because uh i have used a lot of times uh
+i have used two times the map dot dates
+so i will show you a
+way that you can
+achieve this first of all
+let's go here and
+read
+input
+and my map
+star my map
+and car star
+doc file
+i think now it will be no problem
+
+so
+what is the way how we can achieve that
+this class will not be redefined so look
+what it is happening
+search engine asks for search engine
+contact search editor date is here
+it's here it calls the read input the
+dates read input dates here and it calls
+them up
+when the map is called
+um
+look what this happened it it does what
+it will do and it goes back here and the
+map is called again and we have a
+definition of the class so what we can
+do to act to
+to avoid that is
+to add the
+a guard
+a definition guard
+so we will tell to the map
+over here
+if
+
+if
+not defined
+oh excuse me if not defined
+
+if not defined
+map h this means map.dates this is how
+it is written
+inside here
+define
+map h
+and of course here and
+if
+so what we are do as you can see there
+will be a
+lost
+so
+we are
+saying that check your definitions if a
+map map to date has a recall that yen
+has called again then don't run this
+part of the program
+and
+so this is how
+we achieve the functionality
+given
+here
+and other way to do it is uh manually
+check when map
+is called and
+not right but it's not correct i prefer
+this way this is
+how it is mainly used
+excuse me
+
+again i use a bug here again
+um
+so we are inside the read input dot cpp
+
+we go here
+and now again we will open the file
+
+and excuse me we'll open the file
+and we don't want to check it again
+because we have checked it before that
+it is correct
+no reason
+go check it before
+that is correct
+so inside here we write car start
+um
+line equals null
+size
+the
+false buffer again we follow the same
+procedure as before
+the lines are buffered the first buffer
+is above
+we're saying that we just want to
+to
+to allocate as much memory to the line
+till we reach a new line character
+and after
+um
+where we are here
+in car
+length and
+
+so and now we want to have a temp
+um
+that
+this will give
+um
+this will uh
+the temp
+will be used later but okay let's not
+use it right now let's just pass the map
+argument remember that the
+inside map we have
+um
+we have everything needed everything
+needed
+to
+achieve
+um
+to achieve all the allocations etc so
+four
+and i equals zero i minus
+now we're going to go to map.gpp
+actually map to dates
+inside here
+up to dates and we want to add
+some setters and getters
+const we use const when inside this
+function called nothing is changed
+just to know for from your future use
+that nothing it says it is at the
+function return size
+const
+and
+get buffer size
+
+return
+buffer size
+like that
+and
+so we are
+pretty cool right now we have the get
+size in buffer size
+and we're going to go to map.gpp and we
+don't want to go to maps dot cpp
+and we're going to need to input i
+because we want to
+actually it's the same but let's not us
+have
+again
+a while
+loop a different way for us to do it is
+for i i minus my
+map
+get
+size
+i plus plus
+i will tell you the way the reason we
+are doing this
+so
+we are using the kit line function again
+ampersand line
+so we give we give to it
+the memory
+location of the line where it starts
+also the memory location of the false
+buffer
+and fault buffer is zero
+again
+full buffer zero and the file that we
+want to read from
+and
+now we will create the insert function
+
+so let's create the insert function
+how the insert the search functions uh
+the insert function will be
+um
+our protocol will be if
+the insert function finds a mistake
+and the program will be closed so what
+we want to free every um
+every uh part of the memory we want to
+free
+so
+the way to do this
+is
+if
+uh
+excuse me if my map
+let's create the insert function oh
+excuse me let's create the insert
+function first
+um
+so
+um
+and insert
+car start
+a line and i
+this is why i used here
+this form in order to pass the integer
+and
+i and
+inside here where it is read input
+map.gpp
+here um
+my
+excuse me
+my map
+insert
+um
+car
+if i remember car star
+line and i
+like that
+and of course this will be integer i
+think into my map insert
+and
+return one for example
+and
+inside here
+my oh excuse me it's not
+here
+read the input it's here
+get size my map
+insert
+
+and
+and we will send it here inside here
+the line and also will send the i
+line
+i
+if this equals minus 1
+
+if this equals minus one
+then
+we will
+write
+dot dot
+excuse me document
+does not meet
+the
+requirements
+
+and then
+and we want to close
+the file
+we want to free
+the line
+we want to free the temp
+excuse me and
+actually the temp is
+a verb that we'll use later
+but actually
+let's not
+write it down right now
+return minus one
+and
+so here we are
+um
+perfect i think we're perfect
+
+okay
+so
+the minus one is returned
+to the read input
+
+and
+of course
+we go here
+and input
+if
+equals equals -1
+we want to delete my map
+
+and return
+-1
+so
+
+we have an error
+
+let's see where the error is
+real log
+
+okay
+let's find out now where it is
+um
+object line force buffer
+free line yeah this is where there it is
+of course every time
+you have to ask before free the line
+you have to line equal equals
+null
+null
+and false buffer
+equals zero
+and after of course you have to close
+the file f close
+uh file
+and you have to free the temp
+so let's say again
+
+let's take ident
+zero errors from zero context
+perfect
+so now we have to
+doing to create the insert
+function
+um
+so we go to map.8
+we have we have to create our insert
+function
+it's not that difficult at all
+so
+we are
+mapped to tpp over here
+and let's start
+
+inked
+car
+car start token
+so token
+equals
+str talk
+line
+either a space or
+a
+slash t
+this is a tab
+so uh because we don't have str talk we
+want we have to
+have inside here include
+std lib
+
+here
+we have to have uh
+or include the string sorry include
+
+c string
+if i remember correctly
+uh where it is i think now yes it's
+perfect no problem so now if i see out
+the token just a token
+
+show token and then
+you will see
+
+it will turn all the content all the
+um
+all the numbers
+so for ex for now let's use the small
+data set
+small data set
+0 1 2
+as it should be
+and
+because zero one two okay
+um
+[Music]
+
+here we are and
+moreover
+we have the token
+so we have
+we have to change its car
+car
+and
+current index this is the current index
+so car is equals a toy token
+after
+and we want to check because this should
+be at the advancing order
+we want to check if
+the current um
+index
+uh is equal to
+the advanced thing i of the i is equal
+to the i
+so this eye that it is returned from
+it is passed from
+um
+here
+so
+and
+
+car
+if it is different from my
+then we have a mistake at our document
+because the protocol is not fallen
+for
+followed
+token equals null
+free
+token
+
+return minus one
+so this is the way to free the memory
+of this token from star talk
+
+because if you free the token a part of
+the line will be freed this is this is a
+mistake of course
+after
+uh we want to
+um
+so have check if it is correct
+if the input is valid
+so
+after
+token
+equals str talk
+null
+we have said that
+we have said that it's talking from the
+next one it is a
+it is
+divided by a new line character so this
+is what we are searching for here
+slash n
+so
+while
+token
+equals
+so we want to delete now
+to erase all this part we don't care
+because maybe it's like that maybe it's
+like that we don't know
+we want to
+erase all this
+so the way for us to do it is that while
+talking 0 equals with spaces
+and then
+a talking plus plus
+token plus plus
+now we will have
+and
+okay
+and
+
+so let's go again token str talk
+manchester this is this is past when we
+are doing again and star talk with
+madness all these
+for example all this is parsed
+so we want to
+erase all these from here and from the
+end and not for example if it is like
+this in order to discard any
+uh
+stuff that we want we don't want to
+include inside our
+inside our
+file
+so the way for us uh to do it this this
+is it
+intent equal zero
+
+while
+token
+and
+different
+this is the terminating character when a
+sign is found inside the token
+and when minus satisfy is found right
+here it is uh changed from minus end
+with mine with sl another minus
+senseless n the null character is
+changed with slash o which means the
+null character the terminated character
+and
+n equals zero while token and
+different from terminated character and
+plus plus and we want to find the end we
+we go one
+when we find then we go one
+um one
+um
+excuse me we go one
+one place um one index behind
+and because we don't want us to be a
+determinate character and
+while
+the
+that we are in
+violent difference from zero of course
+and
+token
+and
+equals
+with space
+then
+token
+and
+equals
+with the terminated character
+and after we want to um
+do it again
+so
+i will show to you what we are doing
+right now
+and
+we'll have a token i will explain to you
+in a second
+so we want to copy all these strcp why
+want to copy all this inside
+our
+documents
+documents to avail
+we want to pass its
+token it's token that we are reading we
+want to pass the correct documents now
+we have an allocated array of different
+documents so at the i a index of the
+array we want to pass the correct token
+this is why you're doing this
+str7y
+token
+what's null
+free
+total
+so let me explain to what we did right
+now let's see let's say we have a line
+here three
+three
+five spaces hello mama and again like 10
+
+spaces so
+what er them
+so what we're doing here we raise with
+with this part here
+we raise
+yes with this part here
+with this part here we raise this part
+and we have this part again that we
+wanted to be discarded of course
+so with this part here
+um
+with
+with this
+part here
+we go first of all we find the end when
+we find then we go one
+place behind
+and when we go we check while we are not
+at the beginning so you know
+we we don't want to get the segmentation
+fault
+well we are not
+get where we started and the token it's
+a free space it's a space
+then uh
+it erases
+this
+erase the space and they go to the
+previous um
+so what we're saying is
+you we are here if this one is a space
+erase the space and go to the previous
+position and do this all until you leave
+you reach a letter for example
+so
+this is
+um
+what we are doing
+with um
+with that part over
+here
+so
+we want
+to
+
+we want
+so for example let's print our what we
+have done
+and
+so
+and we will
+the way to do this is go to map to dates
+after insert
+we want to set to get the length
+and
+so
+inside here written input
+
+excuse me
+
+and the length is very important because
+we will um
+use it later
+and when we
+um
+when we want to define where we are
+where where to underline the words
+it will be very important then
+for now
+where we are at
+
+for now
+we will
+write
+some
+secondary a
+map functions that will help generally
+so void
+set length
+in id in length
+
+would be an inline function
+lengths id this length here we have
+allocated the memory before of course
+equals length
+
+like that
+i get length of course um
+and
+get length
+into id
+and this
+will
+return
+lengths id
+
+void print
+and i
+this will live
+excuse me
+this will print
+a document
+for us
+
+i write them down because i think that
+we may use them later
+we most probably will use them
+our star
+get
+document
+
+it's more beautiful like that
+get them in i
+return
+
+like that and um
+
+okay
+now
+um
+let's go to our main program search it
+into cpp like that
+and for
+let's check our map
+if it is correctly written for
+um read input okay okay whatever
+whatever
+um
+give me a second
+
+um
+for
+and i equals 0 i
+actually let's erase this
+i
+minus
+my map
+get size
+i plus plus
+my map
+print
+i
+so
+let's
+make
+i forgot that
+
+as you can see here only a space it is
+written
+[Music]
+nothing it is in the end no spaces even
+though that
+i created i think one with
+no
+administrator i create let's create one
+one make a 10 i can
+and this one yes this one as you can see
+no spaces it has no spaces
+and because it is
+these are discarded discarded
+and
+so what else
+um
+
+at the next video i think yes i have i
+think we have finished with that
+part uh the next video we will
+cover the try
+and where from now we have to cover the
+try we have to cover a score list we
+have to go over
+list node we have to cover the print the
+output to have some major things to
+cover i
+think and
+i hope
+and you will learnt a lot through this
+tutorial
+and how you have to
+manage your
+managed
+your
+system memory etc when you're using
+really
+memory intensive applications so bye so
+bye guys thank you for your time and
+hope see you soon at the next video
+tutorial bye
+hello guys so at this part of the
+tutorial i will explain to you
+what functionality
+will have
+will our
+will our program have
+and
+the first command
+that
+we want to use
+to our program
+is actually
+keep in mind it is the tf command
+the
+the tf command
+is for example
+um
+so we press
+tf
+and we press after
+zero
+where we are here
+zero and after uh
+the a word that we want so
+tf
+zero
+high
+so
+from
+this this the zero document
+uh it tells us how many times the word
+high
+if exists
+is zero it will say
+zero high zero for example if here
+it is two and in uh
+here as you can see there is one times
+so zero to high one it will
+present to us
+it will we will have all
+also the the exit function with exit
+that will
+close
+our program
+and moreover
+that we will have
+the df
+that
+that will have a double a functionality
+when use we use the dfa loan it will
+show all the available words inside the
+document
+and how many times they are presented
+inside all documents and how many times
+they are presented if we
+we write
+df and a word for example hello it will
+tell how many times
+only the hello world is represented
+inside our data set inside all our
+documents
+and finally
+we will have
+uh
+as the search will which will be the our
+main a goal to achieve
+um
+will have this and a search query for
+example
+like that
+and it will present
+all um
+it will write down all the documents
+with
+with decreasing
+with decreasing
+according to an algorithm with
+decreasing a number how relevant this
+document is with our search query
+so this uh
+and with underlining
+of
+of the word that we search for that we
+search for so these are our four
+out for a fun f um
+excuse me these are our
+
+excuse me these are
+our
+four uh functions that we'll use and of
+course the exit
+so another for us to
+achieve this let's
+say and
+
+we will
+we will create the try the try is pretty
+important
+and
+what is this all about
+is
+managing to
+um
+it is um
+it is
+the try will have i will explain to you
+right now what the try is
+so
+let me open a board
+online
+online board
+okay i will use a simple online board
+right here
+like that over here so
+let us
+have the word start
+le after we have the word
+um i hope you can see like that better
+we have the go the word stop
+
+and we have the world
+the word
+
+sing
+and we have the word for example a
+
+ship
+and let's i use now we have a different
+world too for example
+so this is how the let's start from the
+beginning
+this is the try and this tutorial now
+will explain how the try works
+so
+as
+okay
+the try is
+accompanied with a list
+at least if a list is present so s and
+here we have a list
+if the list is null
+means that there is no word
+that
+is only s there is no word that contains
+only the letter s
+so null
+so we go like here
+t
+after we go like he like that
+of course this is nalajian
+
+i will write just then
+excuse me like that
+
+just
+end when it is null
+so
+a like that
+a gen n
+
+r
+
+and t
+
+so
+for stop
+for 40 there is excuse me there is a
+word so we write down the document that
+it is present we write out the document
+here
+document what do you for example it is 1
+12
+12 documents for example
+in
+in it is the fifth
+word for example we write it down
+for example 12 5
+the stop we go here
+we go
+oh
+and
+stop we go o right here
+and
+of course there is no without we go
+p
+and there is so we write down again
+after
+this is the
+this is
+what we will call a list node
+this is a list node
+this is a list
+because there there will be multiple
+start so again if i if a start is
+present here in the document 10
+3
+it means document 10 and add as a word
+three
+we'll have a we have a different
+document agenda right here so this is a
+list
+list and this node each node of it will
+call will be called list node
+so stop right here and inside the stop
+um
+will be will write if a thing is called
+will have i right here
+
+and of course i will have n right here
+will be
+um
+of course i can and actually ship is no
+reason actually i'll write down c by gen
+and the e g for g
+there is a
+document to be written
+so after that age
+
+um
+i
+and p there is
+
+and p varies
+
+and
+if we have a two we have with these two
+will be connected as as a brothers as
+brothers
+and
+let's say will be a higher least node
+which will be empty but no reason for
+that these two will be connected as
+brothers
+and right here will be two
+
+and after will be o
+here will be n of course and here will
+be o will be write down the document
+this is what the try is
+so in order for us to search for a word
+for a word
+tell me if the word
+um stopping exists
+
+we go
+with search from s s we go to t here h
+is not correct t is correct we go to o
+you go to p after all the all its
+brothers are null
+so no words can be existed from a
+derived from stop
+a stopping stopped etc
+so this word does not exist
+and now let's
+search again
+for
+a word
+a word um
+[Music]
+from another word for example let's say
+again form for word
+
+yes
+and
+we go here
+give me a second
+scene and
+let's search for the word sin if a scene
+it is correct it is uh found anywhere go
+to s
+we go to i good when the word that we
+found is uh is uh
+is found inside the tribe but the list
+node is empty here is empty the list is
+empty so no there is no document that
+contained contains this word so neither
+this word uh
+exists so let's now check for the word
+ship
+s here h here i hear p
+there is a a node over here so
+as you can imagine this
+um
+so as you can imagine
+the
+the search it is correct
+so
+there is a word
+a ship because uh when we managed to
+finally decide to try then it's listen
+no it's list wasn't empty
+so guys
+
+so guys as you just saw
+as you just thought this is this is what
+tries you can pause the video uh
+receipt again
+and it is very very very fast
+now
+
+and now
+we will
+try
+to
+actually let me check for a second if we
+can
+if we can connect it
+connect it somehow
+with what we want to do
+
+um
+
+i'm actually guys
+i think
+um
+there is no reason to
+to write down the try right now we will
+write it at the next video tutorial
+i think it's better
+for
+it's better for your understanding to
+to see that to see again the video
+so guys thank you for your time i see
+you at the next video tutorial
+um
+so bye guys see you the next
+hello guys at this part of the tutorial
+we will try and create
+um
+we will create our
+a try
+so
+let's wait till
+here we
+are we will open the vm again
+
+i explained at the previous video what
+the try exactly is
+i hope i have helped a lot
+and you can check it again if you wanted
+to
+
+and
+let's open the vm
+
+okay
+it's opened
+
+okay here we are we go inside the search
+engine
+uh
+open with other application visual
+studio code select
+and we will open the whole uh folder
+using um
+using visual studio code of course
+and
+here we are
+the search engines are changing input
+map and all
+
+everything that we want to use
+so
+let's try and create our try
+the way to create our try i think
+it is it will be the same as i told you
+before
+and
+we will
+slowly we will add some functionality to
+it in order to add
+to
+to use
+to try to search words etc with
+different search methods you will see
+
+so um
+where
+so we have to create a new
+a new file
+here
+actually
+before the map let's say
+and a new file again
+the first file will be called
+try node.h
+
+try node.cpp
+so here we are trying to dates right not
+to tpp
+and
+while we have this
+uh first of all inside that age we have
+to include
+include
+io stream as always
+and
+furthermore
+excuse me we have to include here
+
+we have to include the
+try node.page over here
+and
+[Music]
+
+include
+let's say stdlib
+right here
+and because we'll use some unlock
+
+include string
+as well
+and
+because we will a lot of different cpp
+files will need the try node in order to
+function properly
+and we will
+add
+a guard
+
+and
+
+like that
+and inside here we will have the try
+node
+if you remember how the try was
+written
+will have
+a try node
+will have a node for example
+
+the way we will do this is it is like
+that
+give me a second
+i will show you an online white board
+
+in order to avoid an array
+where
+everything is connected for example s
+t
+h
+for example start shop and
+sibling for example not to avoid these
+to have an array inside the tri node
+which will show other tri nodes and i
+think it is
+better to have
+
+um to have
+a pointer
+to the first child
+that it is shown to us that we have
+written for example if we have the the
+word start shop and sibling and the
+first letter will start so t will be the
+first letter from from our children
+and
+children
+try nodes
+so
+t and t then will be connected with
+eight
+and
+i as brothers are siblings
+and each one of these will have for
+example a
+here
+we have
+oh for example it would have
+b
+here and as you can imagine i think this
+is a better way to do this because we
+will have
+we have to reallocate memory to the
+to the array every time we find the new
+world
+or we have to allocate 24 um
+24 or
+a static array which will
+get the memory that we will never use
+so it is wrong
+so
+let's from here let's
+close this
+actually
+let's
+well so here we are inside the vm and
+class
+try node
+
+like that and of course we have to
+make that perfect
+
+try not start sibling would be its
+brother
+try node
+star
+child
+it's first child
+and
+we will have a list here
+here will be list node of course
+okay so let's now uh the list note is
+what i explained to you at the previous
+session
+is
+this for example
+here it will be null here will be null
+here will be null if we have
+t
+r excuse me and after uh
+and after that we have a t
+
+a t over here
+this will uh
+this will have a list node that will
+identify
+uh it will have a list
+uh each list will have a the list will
+be
+actually
+it will have a lot of nodes list nodes
+and if a list item its node will have
+specifications about
+where we can find this word
+document
+for each time we have found this word
+will be a different
+here will be for example we have found
+in three different documents you will
+have three list notes about where
+the word is inside these documents
+so
+here will be the list node
+so
+let let now let us now
+have
+actually
+why we can
+create the list node
+it will be
+you know um
+actually we can create it later with it
+no no no reason to do this now
+so
+and of course it will have a value card
+value
+would be a letter
+
+public
+try note
+the destructor try note
+like that
+and of course we will create insert
+and
+later we will create a search search
+word search all etc
+for each different function we will
+create a different uh
+search type for the try node so first of
+all
+uh let's
+in order to delete the try node
+what we will do in order to create it we
+go to a try node inside here
+and we go like that
+try node
+try node
+value minus one in order to know which
+values
+are been initialized or not
+so the sibling
+would be equal to null
+this is not a
+necessary but in order to be sure
+that it will not show to a memory that
+it's not null we will use null for that
+so null
+the list will be now later so i will do
+this right now
+actually
+let's go here and
+and show you how
+we will write this
+list node asterisk list
+this will be right like that
+and
+so here we are
+um
+least perfect
+so
+now we have created the constructor
+and now we we will create the destructor
+the destructor in order for
+to de-allocate all the memory that has
+been allocated of course
+so the way to do this it's recursively
+um
+so
+um
+try node
+tri-node
+if
+
+so
+this this will be of course if we have a
+list
+so
+what this does is that
+it will delete its element
+um
+and have its element of all lists
+uh this this will call the destructor of
+the list fund of the list object
+of the list class
+so if
+again with following the same principle
+of recursively deleting if child
+different now
+delete
+child
+
+and
+[Music]
+after if
+sibling
+differ to now
+delete
+sibling
+so we have created the structure the
+construct of try
+now we want to
+add
+the try inside read input
+we have created the guard here so
+include
+try not to date here
+we want to add it over here as well
+
+we want as well
+to
+to initialize the try
+uh here
+uh search engine where it is or change
+it to gpp
+and where we have uh created a map here
+we want to create our try as well
+try node star
+start try
+equals new
+try node so now we have initialized the
+try
+the try yes with an empty node of course
+and
+so
+what else
+um
+
+inside now the read input
+we have to
+to initialize the try as well of course
+so
+the way for us to do so is pretty simple
+so
+um
+first of all inside the make file it's
+better for us to right now
+
+i made a mistake again
+
+no it doesn't have any name
+so i have to
+do it myself
+
+because it is a class it is better to
+have it
+written like that
+um
+with a caps lock
+it is not
+that good to write it
+so
+let me close this
+close this and close this and go here
+and try and note brain name
+
+yes
+and
+rename
+like that of course
+um
+okay i will close this and close this
+and i will reopen them again
+like that perfect
+
+okay here we are
+everything with the dates
+um
+here we are we want to pass the try as
+well in order to initialize it and pass
+all the values inside the try
+it is very very important
+so uh
+for us to do so
+um
+it's pretty
+simple i think
+um
+first of all
+you have to pass the trial side here you
+have to go to read input to date
+and
+try node
+star
+try
+like that read input.gbp read input
+try node
+star try
+like that
+triangle start try
+and here we will
+we will pass the try
+what we will do now first of all um
+because we pass inside the document each
+line
+if we want um
+if we want to destroy this line we
+cannot uh because if we have a line with
+1000 words the try will str talk these
+words in order to take its word
+alone and map it inside the try so in
+order for us to do so we need a temp
+and temp value
+car star
+temp
+equals
+
+i get buffer size
+of car
+size of car is one but
+just to know we use size of car because
+in the future in a
+very long future
+and maybe it is like two letters not one
+let two bytes not one byte
+but
+yes this is why i use this
+in order for our program to be
+always used without any problem
+so a get line insert
+and
+of course we want to free the temp here
+if there's a problem
+and here as well one two
+three stamp
+like that and like that
+and
+i forgot here we want to return one
+every time
+it is correctly
+so now we will call a different function
+this function will be called a split
+split i think would be pretty okay to
+be called like that
+which will
+its job will be to split its individual
+word and pass it to the try in order to
+for the try to do the job
+retry do the mapping
+so
+um
+so the way to do this it's actually
+pretty simple
+and we want to
+inside uh here
+we get buffer size is the longest line
+ever inside the document so temp will be
+always fine
+so sdr cpy
+temp
+my map
+get
+document
+of i
+if you remember um
+we pass we get the documented we don't
+get the line because there is no reason
+to get the line because if we get the
+line
+then we have to again uh destroy the
+first part and it will be
+it will be actually
+we will do some work that we have done
+before so
+we use the document so we'll get only
+the usual part for example we'll get
+only this not with that as well
+so that
+so
+this is
+useful the useful part and in order to
+have the information about which one is
+which document is we will pass an
+integer with it inside the split
+function
+pretty simple right
+so here we have a
+and we will call the split function
+split which actually the information
+that we want to use is our temp of
+course our temp a string
+our indicator our tri and entire map
+
+i will tell you later why we use the map
+we use the map in order to
+tell to the map how many words
+are inside
+our
+document
+you will see honest in a second
+and
+so here
+we will create our split
+excuse me
+void split
+car star
+10
+and id
+try node
+try and my map
+my map
+after that we will do this
+and
+it's pretty simple right now what we
+will do
+
+equals str doc
+
+temp
+
+so we have
+we have um
+we have a word right now
+with the token
+shows for example here
+that i shows or at age for example
+talking 0 is a date
+so
+we have into i equal zero
+while
+token
+different to null
+i plus plus
+try
+insert
+in order to do to have the correcting
+search in session in order to
+um
+and no
+um
+in order to have the correct insertion
+uh we have to pass the token and
+the token of course the word and at what
+document it is shown so token
+id
+token equals str
+talk
+null
+like that we will write the insert later
+so my map
+set length i if i remember correct the
+id of the current document that we are
+we are passing the tokens and the length
+of it which the length of dvi
+will be the counter the eye because
+every time
+um
+so what does that do token
+token so
+shows here
+so
+every time which is a space goes to the
+next g how are you i hope et cetera et
+cetera till it turns it's fine when it's
+it turns each time we do str talk this
+is what is done
+so when
+we have uh finished our
+uh
+our
+our line talking will be null so this
+will be this will break of course we
+have to free the token
+right here
+and
+we want to we have insert here token id
+so now what we have to do is to create
+the insert function
+so
+let's go here
+we'll have
+we have
+a
+function doesn't need to return anything
+void insert
+car start token and id
+like that
+and
+inside here at the insert function
+um
+we have to go to here
+and we will um
+will
+insert a
+recursively again
+this is the best way when we use a try
+to
+insert recursively
+so void
+try node
+insert
+
+and so
+
+uh
+
+so now we want to check
+if the current value is uh
+here as you can see we have passed it if
+the current value is minus 1 that is
+means
+that
+the new uh node is and is not
+initialized so what we are going to do
+right now is
+if
+value equals equals minus one
+or we have the same value
+as the as the token our token
+has the same value as us
+pretty simple right
+so
+uh
+here we are
+so what we are doing right now is
+it is the moment that we have we want to
+install inside our try the word
+
+surikan
+s
+has the same value as says so it will go
+inside this inside here
+so
+uh
+anyway
+because we want to cover the
+the when
+token is not is -1
+if strllen
+of token
+equals equals one
+this means that we are the final letter
+then we want to initialize a list
+initialize
+list
+else
+we do the same thing with the children
+if child
+equals equals null
+child
+we want to
+go to the next
+uh
+to the next try node
+because for example here at this
+right
+here and
+right here
+there is a problem we have this and here
+then we have to pass
+this word
+we go here
+and we want to insert
+um
+you you inside here we check if the
+child is is null if it is null if
+the tree was like that
+like that
+it will be null then we want to
+initialize the new node right here
+um
+so this is what we are doing right now
+when is initializing the new node
+new
+tri node
+child and we will like recall
+recursively the insert function token
+plus one
+because we want to
+because we have just them because we
+have just
+passed the s inside now we're going to
+pass the u
+and the idea of course of the article
+it is not changed
+now if we now if we don't have the same
+value
+first we want to check
+as you can imagine we want a
+
+uh
+actually this is no reason okay return
+anyway uh
+right we want to check if there are any
+siblings
+so
+at this here
+u is not the right right it's not a we
+want to check if there is any sibling
+because
+uh
+maybe the word super was present and uh
+you there was in the list so we want to
+check all the all the brothers to check
+if
+there is you and if it is not then we'll
+create a new node called you
+so
+else if sibling
+equal sequence null
+then sibling
+equals new trinode
+
+and
+sibling
+in
+excuse me insert
+token
+id
+so we have just finished our
+our try node
+where we we need now to create our list
+node in order for us to be
+perfect
+to
+where it is insert now
+of course i have to close it again
+
+everything is passed right now try not
+to stay notified
+now
+we want to go to create our list node
+the list node will have some
+important
+stuff inside
+first of all
+i haven't i forgot to make the make file
+here
+and
+try node try node.o
+here we will have to add
+try node.o
+here we will have to add try node.o
+try node.cpp
+try node.8
+
+here we are
+and of course
+i open terminal
+cd desktop
+here
+actually let's zoom in a bit in order
+for you to be easier
+
+like that perfect and we have here we
+always on top
+and if i press make
+and
+i try not to tpp here
+because this should be
+in the headers
+everything is made beautifully
+
+uh so
+so now let's create the list node the
+list node it's very important actually
+let's make a revision of what insert is
+doing
+right here
+so
+um
+checks if the current value of the node
+is initialized or we have the same value
+if we have the same values initialized
+then go in
+uh passed your value
+okay to the current node because if it
+has the same nothing will be changed
+uh if it's minus one we will listenalize
+it now check if
+your word is too small
+um
+it's the final letter
+and if it is a final letter this means
+that is the word and we have to pass to
+the list the information about where our
+word is so here we will initialize the
+list
+else
+different if we are for example the
+third letter of the five letter word
+the third letter of five letter word
+then we go else and we will check if
+if there are children if there are then
+we will insert we will do recursively
+and check again all all these
+else we will create a new child
+initialized and we'll go here
+as previous
+and so let's say that our value is not
+the same or the value is not initialized
+at the tree node then we want we want to
+check if there are siblings
+if there are other brothers
+like that if there are the brothers if
+there aren't then we will create a new
+one
+if there are then we will check all of
+them if we find what
+what we are looking for that it is okay
+and we will continue our
+fun and function recursively if we don't
+find we create again a new one
+it is pretty simple it's not that
+difficult i think i
+so now i suggest we go to
+create our tree node
+our three nodes class
+and
+
+and
+so
+let's create our list node
+
+actually again here
+
+read the input give me a second excuse
+me
+cpp insert
+and i don't think we will use anymore
+that we didn't put the tvp with if we
+have insert we had
+anything that we want
+according to the input
+and we i don't think we have anything
+more to
+to address here
+so i will re that will close these two
+
+also i think the map is finished
+so i will close them up as well
+maybe we will address the map later but
+i don't think so i think we have just
+finished
+and now we will go to the search engine
+and
+we will create the
+excuse me not the search engine we wrote
+delete to
+create two new
+two new and
+
+excuse me
+we will create a
+two new files at least note.8
+excuse me here
+
+and
+leaves
+
+perfect
+inside the list note the page we will
+include the
+all here
+so also here inside the time node we
+want to include
+
+list node.h
+
+perfect and
+what else listsnot.cpp is not 8
+and
+
+so inside here we will have the class of
+the list node
+
+how i might also do this
+so we'll have the class of the list node
+and here will be the list node to tpp
+and inside here will be this
+so
+
+um it will be a list as you can imagine
+so
+we will be created will be connected
+with uh
+with
+the pointer to the next
+node
+and
+what else
+furthermore um
+
+we want to have inside we will want to
+have two different things
+uh we want to have a the item
+the id of the document the document id
+and how many times so it's it's this
+note
+it's
+it's about a word okay so um at the end
+of the end of t there is a list node
+right here wait let me show you at the
+end of t right here there is at least a
+list
+where
+so it
+it explains where the word start
+is presented it says for example start
+is presented five times a document five
+three types a document two etc
+so if we have a list node for our small
+data set over here for
+let's say
+let's say for all the words it hello
+will be will represent the at the
+document 0 like 10 times i don't know
+how many times it is written
+hi it is
+written one time at the document two etc
+this is how it will be
+written inside the list note so
+uh inside here
+list note
+int document id
+id
+document id
+times
+zero
+next equals null
+this will be the constructor
+so this will be public
+
+like that excuse me and inside will be
+the idea of the document
+
+how
+many
+times do it's touching to
+the specific
+dock
+so perfect
+we have created our constructor wait a
+moment we will create we will
+have the destructor this problem will be
+a little bit more complicated
+let's not do gpp up here we want to
+include as always
+include
+
+if next different to null
+we will again delete it recursively as
+you can see delete next
+perfect
+um
+so
+um
+
+what else i think
+um
+
+um
+[Music]
+
+what else i think
+and now we want to create the add
+function
+so avoid list
+node
+add
+in document id
+if
+a document id that is given here
+equals with the id of
+of the document of of the list
+equals equals id
+and then
+times plus plus
+why though
+this node has no number
+
+list node to dates list node.h
+
+so if i erase it and reopen it
+right then
+has no member add that's why i forgot to
+
+to have it right here
+um
+it would be avoid i think void add
+into the id
+like that
+
+um
+
+classless note
+uh
+of course we want to pass the guard
+if not def
+list node 8
+hashtag define
+list no dates
+and
+if
+so here we are
+let's start changing
+i don't know why
+there's no member list note
+
+okay now no problem it was a bug
+a minor bag so you have you have to just
+restart it when something like that
+happens
+and
+so
+if the current document id
+equals with the id that the word
+we are looking for is
+is given with us
+and then we want to increase the time
+else
+else we want to check at the
+the next then we want to check if the
+next
+um is null
+
+if the next
+list node is null
+then we want to create new and
+next equals
+new
+list node
+the id
+like that
+and next
+add the id
+so
+it is pretty simple
+what we're doing right now it's actually
+pretty simple
+so
+every time
+for example and let's say we are right
+here and start the list node it's this
+
+um
+document document five three times
+
+connected
+with a
+the next document is document seven two
+times
+and document
+9 one time
+so
+let's say we are a document 10
+and we just read the word
+the word start
+we will check is our
+the document 10 has the same as 5 no
+7 no 9 no so we will create a new one
+this is what
+this line here does it creates a new one
+and then we will add the current
+document id which means 10
+when we add it
+because we have initialized it here
+when we add it
+then this is what happens
+10
+0
+then we we call the add function right
+this is when we call the list node new
+list node where when we call the add
+again
+um
+excuse me
+then
+zero becomes one so let's say the second
+time would it again
+start
+it goes five seven no nine not ten yes
+so one becomes two etc this is how our
+list know that the function
+works
+it's
+pretty
+simple i think
+so
+now
+let's
+first of all
+make
+a list node is not added to the make
+file i think
+list node.o
+listnode.o
+
+listnode.o
+listnode.cpp
+node.8
+
+like that minus c
+listnode.cpp
+perfect
+let's make that right now everything
+runs smoothly
+where we are now
+search engine
+so we have just i think we have just
+finished
+creating
+our
+our try
+and now
+actually we don't have a
+lot of thing to do anymore we have i
+think two strikes a score list and max
+keep that will address
+at the end of our tutorial
+and
+so we have we have some pretty important
+stuff to do to the try node
+and to the list node as well
+and
+you will
+find out soon enough
+and what else what else
+
+so at the time so i think
+let's
+let's run
+search engine
+perfect it runs perfect but
+let's
+like that of course we want to delete
+the try
+right here
+
+and i want to run the valgrind function
+for us to be sure that everything runs
+smoothly
+zero all hip blocks were free no leaks
+are possible everything was
+smoothly
+smoothly created
+so
+for the purposes of our
+first of all
+we will write right here
+database database
+ready because our database is ready
+and
+we have passed our try
+we have
+here
+read input.gpp we have
+everything run smoothly and now we will
+at like
+pretty
+pretty fast
+we will just write a simple input
+and exit
+nothing more
+um so
+while one
+get
+line
+we will right here we will call
+cars write the car star input
+equals null
+as you remember we'll use the git line
+function
+size t
+input length
+equals zero
+get line
+um
+where we are
+i lost ampersand
+input
+input
+length
+and
+std in
+we want to read from there
+we want to read
+from the keyboard right now
+and
+so
+i will
+write a pretty stupid
+um
+pretty stupid
+if exit is given then it will
+write
+it will return exit
+so the way to do so
+and
+actually actually
+
+let us do it at the next video tutorial
+because
+this video is already pretty long so
+it's about the try in the list note so
+it's about the try and i don't want to
+to spoil it with
+some input stuff inside it we will do it
+at the next video tutorial
+so guys i thank you for your time i hope
+you had fun
+and
+see you at the next videos bye
+hello guys at this part of the tutorial
+we will try
+to
+create a basic input manager
+so
+the input manager would be like
+get line
+into return value equals input manager
+
+input
+try
+my map okay
+if
+the return value equals equals minus 1
+and then
+c out
+row um
+wrong
+in
+input
+and
+else if
+red
+equals equals to that means it exit
+we exit this code so free input
+
+and
+break
+like that here
+every time we want to free the input
+and we want also to put input length
+to zero as well
+so now we want to write our input
+manager function
+inside here in up there
+we will have
+imp
+input
+manager
+car star input
+trying oh my god try node star try
+
+and
+my map start my map because it will
+redirect to different functions that
+will use them in order to achieve the
+search functions
+so
+now we will
+we will take each word of the input in
+order to to understand what is going on
+so
+car start touching
+equals str talk
+input
+
+excuse me space
+or
+knee
+and
+this is these are the delimiters
+and
+so using them
+we will take every possible scenario
+so
+um now we want to create
+um
+a new file which will be called
+search.search.cpp
+and
+inside there we will have all our valve
+all of our functions
+and
+so
+
+let's create it right now
+
+and here we are perfect
+um
+of course we want to include some basic
+stuff
+inside here
+um
+so
+of course we want to include
+later we include what we want inside
+here we will have three major functions
+as i imagine
+the search the df and tf function
+
+contain the token
+try
+note
+try
+also we want to include inside here
+include
+try node
+and
+include
+map to date
+and
+
+my map star
+map
+and the number of results that we want
+to be shown
+and after
+we want to
+have void df function
+we'll have try node star
+try
+and intf function
+will have car start touching
+excuse me car start touching
+and
+try node start try
+like that
+um
+
+so
+
+what else
+so we want to go inside here
+we want to include
+
+load search dot date inside here we want
+to have a void
+search function
+uh
+and the void search function inside here
+um
+no excuse me void search function
+of car start token
+
+try note start try
+
+my map star map and into k
+and we'll write
+and
+see out and
+not
+implemented yet
+
+uh yes
+
+like that
+so we are
+perfect
+using namespaces this you haven't
+implemented yet
+
+and now we'll have again
+the same
+
+and
+finally we will have
+the tf
+which
+will have
+car star extremely for a second
+
+car star
+touching
+and
+try node star
+try
+
+ytfs
+
+i think
+um
+and again the same
+so you see how not implemented yet
+so
+we go to the input manager over here
+and we want to check
+if everything
+
+it's given correctly
+
+so
+
+so we are here
+if
+
+if
+um
+htrcmp
+and token
+search
+search
+token
+try
+map and k
+
+elsif
+uh we want to include the inside search
+engine.h
+we could we want to include the search
+include
+search.h
+um
+we want to include map is included
+actually
+uh
+yeah
+let's look like that else
+
+lcf sdr cmp
+token
+
+else if
+
+sdrc
+token
+about the df function here
+tf
+
+and if
+tf
+token and try
+equals equals minus one
+
+minus one
+so now if exit is called
+
+and
+return minus one
+and i was
+thinking now about when to free the
+token but i will are afraid
+i have read it here
+as you can see over here
+different wrong input and it is freed
+so no problem
+so else
+let's see
+strcmp
+okay
+
+see out
+exiting
+
+token equals
+null
+free token
+turn 2
+details
+
+let's return minus one
+and
+touching
+equals null
+the
+token
+return one so
+everything is
+correctly written i think
+except
+this one the tf token that i want to
+rewrite to write a little bit better
+because everything
+is controlled and
+
+then the search query is right but
+
+we want to check it a little bit further
+
+um so
+
+let me first of all pass it to the make
+file the search
+search
+dot all
+
+like that
+perfect and now we will run the make
+file again
+desktop
+open terminal
+
+using a
+
+search tf ah
+
+now you seem to tf
+why though
+
+and
+search engine
+using namespace std
+but the problem is that we have used it
+here
+
+hmm
+
+expect initializer before using
+
+why though initializer before using
+space sdt
+this is not wrong
+and then in function
+declaring the scope tf talking try
+
+df and if you go to search.8tf
+is called
+right there mtf is right there
+
+space sdt
+
+state
+
+everything runs smoothly
+and
+if i write a write these
+search
+hello
+multipliement yet
+df
+tf
+and exit
+exiting so
+let's run the valve grind
+and tf df
+search
+exit
+no leaks perfect
+so now let's fix a very fast
+and because inside here tf needs some
+more
+checks
+so we need to check it up
+before we finish
+yeah it's like
+10 lines of code so
+every
+when
+car when token uh when we use str dog it
+is globally implemented not locally so
+that's why
+we can use a
+we can use some pretty some pretty cool
+stuff so we have a car star touching
+
+tweaking the token2
+and use
+token
+to equals str talk
+from null from the previous function
+which is right here we have used the
+static of the input and we will
+get the rest of the input
+using this
+null
+minus t minus n minus n slash actually
+slash c is less than
+and
+if token
+2 equals equals null
+equals to null
+then
+3 token 2
+and return
+-1
+and we want to check if
+um
+if token two
+if now that the document is empty if
+eight is a number that it's given
+so for int l equals zero
+l
+uh
+l smaller star length
+then
+thirteen two
+still learn token two
+l plus plus
+if
+is digit
+token 2
+of l
+
+so
+so if the first word is not a number and
+
+so
+touching 2 equals null
+again
+3 2
+return
+minus one
+
+so perfect
+and now
+entity equals a toy because now we know
+it's a number a toy token too
+and
+we want to start talking to star talk
+one more time
+it to check if there is a second world
+second word
+if token 2 equals equals null
+
+free titan
+thirteen two
+return minus one
+and now we're gonna check if everything
+is correct with
+slash tf
+if you remember how
+tf
+what tf is about
+
+i will explain to you in a second
+make
+so after valgrind
+and
+now
+we are saying like tf
+uh
+dd which is wrong
+but tf 2d it's correct
+tf2
+it's not
+it's not correct but
+
+yeah i forgot to start off here talking
+2 equals
+str talk
+now
+space
+t
+n
+
+um
+right now tf to d correct
+but
+tf
+to
+it's not tf2
+it's correct tf without a number
+it's wrong tf
+without a number at all it's wrong so df
+is correct search is correct
+so
+perfect
+i forgot to exit
+tf 2d
+tf22
+a perfect tf
+mttf
+d
+d
+tft
+tf2
+perfect
+exit
+no
+no unallocated memory perfect
+so what else
+i think this is what i wanted to
+show you pretty fast
+and
+
+so guys
+this i we just implemented a basic input
+manager so i hope you see at the next
+video we will start to implement all the
+search functions
+first we will permit tf and df and
+lastly we implement the search function
+at the last video
+which will be very very interesting
+so guys thank you for your time see you
+at the next video bye
+hello guys
+so now we'll start to give some
+functionality
+and
+we'll start to give some functionality
+to our search engine
+um
+so
+let's begin uh
+let's begin
+uh
+writing our
+secondary search
+our secondary search
+types i tf search df-search and after
+we will try to at this video we will
+cover df-search at the last the next
+video will have tf search and the last
+video we'll cover
+um
+in the last video we will cover
+um
+
+we'll cover the search
+here
+so
+let's begin with let's say
+tf search as you can see we have write
+the most code yet
+so
+um
+so let's
+begin
+and
+what the
+tf
+does
+is
+takes the
+token
+from here so if for example it's tf
+tf an etf nicos
+tf
+nicos
+um
+will show what what
+which document how many times there are
+of a word
+so
+the way to do so it's pretty simple we
+will write
+down first it's the id
+so we'll see out
+the id
+after we'll have
+a space
+after we'll have token 2
+as
+the word will be given
+and after we will see how the result of
+of a function which we will call tf
+search word function
+which it will be a try function
+from the try
+and inside here in order to find out at
+the which at with at specific document
+um
+how many times the word is given
+this is
+what we will write down we need to know
+the id we need to know the world and we
+need to know
+at
+which
+index of the world we are
+in order for us
+and
+you know in order to
+count down how many and not index in
+order to count down the number
+hey give me a second
+
+one second please
+
+and yes
+so
+here
+so we go to the try
+where it is try not to date first of all
+we need to
+um
+try not the date inside here
+
+we will
+um
+write the type of
+um
+what the function
+so
+int
+a tf search
+board
+and id
+car star ward
+and car
+
+and
+
+as i as i told you before let me explain
+to you one more time
+inside here
+um
+this will return this function here we
+will return an integer that will uh
+will explain to us will show us how many
+times
+a specific word a word is
+given at the document specific document
+um
+so
+remember guys be before all the structs
+that we created was just to achieve a
+very fast response times
+this is why
+we
+used all the structs we have used
+the mapping and the
+and the try node this is how uh
+probably how
+uh search engines uh work
+for
+that data that are really frequently
+used
+so
+[Music]
+now let's write
+the tf
+search word
+and
+
+so
+let's go to the try node.cpp
+here we are
+let's move it here
+we don't know okay
+
+and
+try node
+t
+f search word in id
+car star word
+int current
+
+if word
+of current index the this number that we
+gave here is
+where we start we start at the zero
+index index zero so the current now if a
+is zero equals with value of this tri
+node
+if
+car
+equals equals strlen
+this this mean
+minus one of course that means that
+we the the words are exactly the same
+so
+what we will do now is
+um we check if the list equals none
+
+now
+uh
+if
+if they are not equal
+i for have forgotten to initialize the
+list here
+excuse me i forgot to write the list
+here
+and also i forgot them to
+initialize
+the list that they insert function
+[Music]
+here
+if
+list
+equals equals
+null
+list equals new
+list node
+id
+list
+add
+id
+so um now we have to go to the try not
+the dates and add the list node like
+that
+everything
+here runs perfectly right now
+so after we have to go to
+tf search
+word if list different to null
+
+return
+list search
+the list lists search with a specific id
+list search so what we'll do is it will
+run down through the list in order to
+find how many times a word is given at a
+specific document for example
+it will check all the document ids of
+the list of this list for a specific
+word of course because
+you know it's a list is a specific no
+it's about a specific word else this
+means that this word is not given
+anywhere so return 0
+now
+we have to
+we have to to write the search
+and
+actually let's write down the rest of
+the code in order for us to have
+
+to have a continuation to our thought
+if
+child different to null
+now if we don't have if the word is not
+is not the strlend word minus one this
+means that we have to go
+to a child
+search word id word
+car plus one with that we will move to
+the next index
+else
+excuse me
+return zero
+and
+perfect
+so
+now
+if we don't have the same
+value the same value at the car current
+the current character doesn't have the
+same value as our
+word
+a word
+character
+we want to check for siblings not if we
+find anything
+in sibling different to null
+return
+sibling
+tf search word id word
+and current because we want to check at
+the same index
+else
+return 0
+
+so
+because that means that there is no word
+such such
+such as
+uh what we want to check
+and let me do a demonstration for you
+please
+
+here we are
+s
+t
+o
+h
+and etcetera from pronoun we don't we
+don't care it goes to s the word we want
+to check is start
+if it exists
+it go to s go to t and it go down here
+and we will find start if the letters
+exist but if we want to check
+um
+uh school
+it go to s it will go to t
+but t is not the uh
+but
+is not um doesn't have the same value as
+here
+so we will check the sibling
+so here we are
+oh again the sibling 8 if no siblings
+are have this have the same um
+have the same
+value then we will turn 0 because we
+know that the word will not be found
+anywhere this is very important how
+search work works inside the
+no a list
+inside a try because the same principle
+we will use at the next search functions
+so for example if here
+we want to check about here
+there is i
+and here there is p
+and here there is
+a
+list list nodes at least about where it
+is found found if you want to check
+about the word shipping
+or shipped better because it is smaller
+shipped it will go here it will say that
+it's simply assuming it foundates it go
+to white go to p
+now it will check if there is any
+children
+the children
+there aren't a children so the word is
+not found anywhere
+so as a result it will return 0 over
+here
+this is what the principle of tf search
+is what the principle of this search is
+so
+from now on now we'll try to create
+um
+inside our list node we'll create the
+search
+we have created the ask the add i think
+if i remember correctly yes now we'll
+create
+search
+into the id
+who go here
+and
+here we will create the search it is
+pretty pretty simple
+void
+and actually integers you know sorry
+please note
+search
+in the id
+if
+the current document id which the id
+equals with the id
+of
+of the
+list node
+of the list node
+then
+return times
+else
+because if you remember correctly every
+time we find the new
+um
+a new
+at the same
+um
+at the same
+give me a second to explain it as as the
+the best like i can
+it's time we find the word the same
+document we add
+the times parameter the times variable
+so
+it will trend times else it will
+check if there is
+next if next is not is not null
+return
+turn 0
+else
+if it is null that means we haven't find
+time we haven't find a document id as
+this as
+um
+the same as ours so there are no there
+is no
+words at the at the current document
+else it will return the
+it will do recursively the same
+operation for the next part
+return
+next
+search
+the id
+with the document id given
+so this is a search
+and
+now
+let's compile it
+i think it should
+
+open in terminal
+
+brunch perfectly
+
+set ready
+and the way if you remember the correct
+way to write dftf for example zero
+hello
+and
+at the it says that the
+at the document zero hello is written
+two times let's check it out um a small
+data set a document zero hello here
+hello here and then
+hello is uh
+stuck with fun so it's not
+[Music]
+taken as a single word
+let's check
+at
+here a 2 if i write again boys right
+here
+and what will run
+so we have to close it because we have
+changed and we don't have to make it my
+mistake
+and um
+tf
+two
+and boys
+poise is given two times
+if we give something that does not exist
+the f uh
+seeks
+a document that does not exist did for
+example
+6.0
+if we give
+tf
+a three document at the third document
+high
+it does not exist and if we exit
+exiting perfect
+guys i'm a little bit sick
+so
+we just
+created the tf function
+and uh the next video we will create
+
+our
+our df
+rdf function
+so see you there guys bye
+hello guys so at this part of the
+tutorial we will
+create
+a functionality as such functionality
+where we will give
+me this is from the project
+where i will give
+wait a moment
+
+slash
+df and then we give this command
+then
+um
+right now
+[Music]
+excuse me
+
+let's make it again
+
+slash df it's not implemented right now
+such df0
+i is implemented
+so we implement the df function
+so
+when we give slash df it will return to
+us all
+every word that is presented
+every distinct word that is presented
+inside our document and how many times
+we have seen this word
+the volume
+and slash df
+award will return just one word only
+so let's close it
+and
+let's go right now to
+um
+to the input manager
+here we are
+this one will have you
+but we will make it pretty
+small
+close it
+excuse me
+so tf is implemented
+and let's go to df we call df try
+and
+if a a pretty cool trick that you can do
+if you have a result of the code you can
+press ctrl
+up on top of a function it will guide
+you immediately to
+[Music]
+the appropriate
+window to appropriate a file excuse me
+at the profit
+place
+so
+now we have
+the df function
+and
+now what we will do we will check
+if
+um
+we will check if a second word is given
+if a second word is given then
+we will check
+this word this word
+
+else
+if
+a second word is not given
+uh it will check just also for a
+specific word so will
+either or
+if
+if not another word
+is given that then it means that we
+the person wants to search for all the
+words inside our documents so we'll
+print every word and how many times will
+we saw them
+inside their document so
+let's begin to write
+car star
+token 2
+
+so
+if touching
+too
+different from null
+that means a word is given to us so see
+out into
+try
+this search
+word
+will be fi
+will be
+a specific word
+it deserves word zero
+and
+uh andel
+so what this does here is
+it search for super for specific word
+and
+
+and it prints us how many times it
+returned
+to us
+
+excuse me talking to
+and it prints how many times has shown
+this word in all the documents so we go
+to the try
+try.8
+we will
+have
+in figure this search word
+a car start touching
+
+actually i think it's better
+
+i think it's a better
+word and current
+the current index that we are in
+so we go to the cpp folder
+and we follow
+
+so
+in
+try node
+this search word
+car star word
+and current current
+
+and if
+word
+current
+equals equals value
+
+and if car
+equals strlen
+the world minus 1 that means that we
+have reached
+the length of the
+the length of the word
+we check if there is a list
+again guys we follow
+the same principle as before
+and now we'll return a function from the
+list which we call
+list volume which means how many times
+specific word is given
+else if there is no list
+return
+zero
+so we have to go to the list
+like that here
+the list node
+over here and we have to
+and we have to create the function int
+volume
+[Music]
+which
+job would be just to return the
+to return how many times
+
+how many documents excuse me how many
+documents
+the
+word is in
+so
+
+here we are
+and
+list node
+we use we create this function because
+that will be useful later when we try to
+create our algorithm in order to
+sort
+our results at the main search function
+if next
+
+return
+one plus next
+volume
+
+else
+return
+one
+so what we're doing right now
+um every time we go we do it recursively
+so we check if the next is different to
+null if the next
+if the next equals to null
+then we will just return one that means
+that the current
+document we have one
+if the next is not null then we add one
+and we add whatever the next
+the volume will add later
+so if there are three of the
+in front we will add three
+three differently that means three
+different documents that
+are in our function
+so
+um
+where it is try not to date you
+i think 2p
+
+now and we have checked we haven't
+checked about the
+child again we have we have to follow
+the same principles
+as before
+else
+
+if sibling
+if child excuse me first if desire
+different
+now
+return
+child
+dissert word
+board
+card plus
+one else
+return
+zero so guys we're following the same
+principle as at the previous
+as you can check the previous video in
+order to understand if you haven't else
+
+if
+sibling
+different now
+return
+sibling
+excuse me search word
+word
+current
+again
+this is
+we cover the case that
+we don't have the same award so we don't
+want to check all the siblings
+for possible
+for and
+not the siblings
+so
+let's
+take a look i think now it will be fine
+search
+df
+hello hi
+uh if we check inside our small dataset
+high is only presented one hello will be
+present in 2
+so if i say df hello
+2 is presented if i go exit
+let's check it with val grind
+for a moment
+
+grind
+uh tf
+and yes tf
+zero hello
+okay
+df
+high
+one
+df
+zero
+df hello
+two if i go exit
+zero errors from zero context that's
+mean that means we are
+we don't have any problems
+related to
+excuse me we don't have any problems
+related
+to
+them
+to memory management
+even though we have a really big project
+we don't have any problems
+so let's go now and implement
+
+the search all function this will be a
+little bit different a little bit
+difficult more difficult
+um
+
+you will
+understand right now uh actually it's
+not that difficult
+but um it's different from this one so
+
+ain't
+uh
+actually void will be that because we
+will we will do not return something
+void
+this search
+search all
+car star buffer
+in current
+so first let's
+build up the front end
+
+um
+excuse me
+
+um
+
+and now let's go to the front end again
+not here
+
+sets the cpp here
+
+and here we are
+
+else
+
+car star
+buffer our guys at the final product
+when we reach a final problem i will
+give you a version where i have written
+a lot of comments in order for you to
+when you download it to understand
+better and what is going on
+car start my lock
+256
+size of
+car
+try
+
+this is all
+
+and so we call the dissertal function
+and now we'll go to write
+try note
+so
+[Music]
+let's start writing it it will not be
+that big so
+let me go again here
+online
+board
+curious online board
+
+so we have this try
+
+give me a second to color it
+
+empty
+this is supposed to be an m
+
+and then we embed
+
+here we are these are the words
+and
+another word would be for example
+
+emp emp you know mp
+is a type of
+a
+its electromagnetic electromagnetic
+pulse
+so emp like that here
+this symbol
+here over here
+means that there is a list a list is
+present if not even the symbol is not
+present like that it means the
+is null
+the list is null
+so
+what our argument will do we'll go to s
+first uh
+if we'll check if it has a list if it
+has it has not released will go to its
+children
+and we will have a buffer okay a buffer
+here
+first of all buffer will be equal to s
+i will
+write the buffer down here like that
+s will go to each side t first of all so
+buffer will be converted to s
+t
+it has a list it does not have a list t
+so it will go to a
+s t a
+and
+does the a has at least no we'll go to r
+we'll go to d and this is what we look
+look like start start has at least start
+so we'll print out the word start
+
+the start with
+how much the volume of start how many
+times it is
+actually in how many documents it is
+present
+so after that we'll go recursively
+behind r
+a
+t t
+after
+d we will check every time if it has a
+sibling
+that doesn't have a sibling r doesn't
+happen it doesn't have a has a sibling
+has o
+so we delete a
+then we replace it with o
+o doesn't have a child yes
+it goes to p
+p has a list it prints out stop etc
+it goes up
+it goes for for it does the same over
+here
+over here it's done all the time the
+same so we go up again here e says he
+destroyed because s does have a sibling
+after ship is printed
+and e goes down in m and p p has at
+least emp
+after
+a t
+y and so so goes on
+so this is how our algorithm
+will work around will work
+we will work excuse me
+so let's write it down
+buffer
+current
+will equal to value
+if list
+different
+to null
+which that means the item has a list
+then we want to
+see out buffer
+
+list
+volume
+and then then
+after we have printed them
+the word will check for its children
+if child
+different to null
+child
+we call the disserts
+all function recursively
+buffer
+but
+now the current will be car plus one
+index
+because as i saw you before we will go
+to the next letter
+and finally
+if
+sibling
+different to null
+
+sibling
+
+excuse me
+the search all
+buffer
+excuse me
+
+and current
+and
+this is very important to understand so
+when when we have we haven't uh
+found anything
+uh
+we want the buffer
+the kind buffer
+um
+to
+how to set the limiter to the current
+buffer
+and the reason we do this is because we
+don't want to have
+a values such as let's say we have start
+
+start
+when when everything is
+we have
+start
+when we go back we have to delete t r a
+t etc
+when we go back in order for us to
+delete it we replace them with a slash
+zero
+so the way for us to do is we will do
+this path
+car
+equals slash 0
+which is the null character
+so
+let me
+let me for a moment so if i want to
+explain to you something else
+
+um i don't think i want to show you
+something else
+and now let's
+check it out how it works
+let's
+have it a little bigger
+make
+fun grind
+
+so
+df if i press df
+you can see every single word
+so a shown at ha in how many documents
+is used
+and
+
+and
+yeah
+this tutorial etc as you can see this is
+true i is used in two documents let's
+check it out right now
+uh i
+one document and two documents
+so everything works like a charm
+um
+let's do some more uh df for example
+james
+one
+df mama one df strucks
+one
+df b
+one
+so now if
+instead of v of this we import the big
+data set
+
+um
+what is the name
+i think
+big
+data txt
+please wait it needs some time to
+initialize
+
+because a valgrind is called
+and because the big data set it's too
+big it's really really big
+it has like
+3 000
+different documents and the lines are
+like
+um
+
+with
+five thousand six thousand
+lines
+characters
+so
+let's wait
+after the initialization
+
+well it takes too much time yes
+perfectly database is ready
+so now let's check for example now you
+will see how fast it is though
+tf
+as you can see
+how much time it took to initialize the
+this is why we're using
+so fast
+some excuse me we use some so fast
+
+um
+extracts and we don't
+check from the document as you can see
+10 seconds
+like 10-15 seconds when we initialize
+big data set
+using that grind
+of course
+as you if we erase it while grind slows
+down the
+they read and write from files and
+generally slows down a lot of stuff
+because it reads the memory and checks
+the memory constantly constantly
+so
+this is
+the reason
+um
+it's
+much more slower
+using that grind
+even now you can see how fast we checked
+all the words from all the documents
+how many times are used
+um
+now for example if we check for uh for a
+word
+let's go a little
+further for example
+uh chu
+or querty
+if we check for quality
+df quality i think none
+if we check though to
+coverty
+i i
+so wrong maybe
+
+yes i made a mistake excuse me
+
+as you can see everything that is shown
+here it is only
+here as well
+so
+uh
+we used all these functions i use i i
+created some simple functions now and at
+the part under the last part of the
+tutorial we will create the main
+functionality of our search it's really
+it will be
+not
+too difficult but will be it has it will
+have some difficulty into it
+and it
+will
+add two more structs a score list
+and
+a max a max heap
+i will
+learn you what maxi is
+and
+what
+how it works
+so guys
+i hope i see you soon at the sa and the
+next
+tutorial
+so at the next video excuse me so thank
+you for your time see you soon
+now guys we will implement the last
+functionality of our
+search function
+it is the biggest first of all
+the
+let's say the query will
+only be able to have at max 10 words
+
+and as i told you before each word
+will be implemented it will contain
+
+for each word um
+a
+a logarithm will count
+how
+which documents are the best
+so let's begin card word array
+
+10
+20 50
+6
+double
+idf
+10
+for each word
+and now
+token
+str talk
+
+null
+excuse me like that
+and
+i
+
+give me a second
+
+excuse me
+foreign
+
+so now we want to check for every word
+but if the token equals to null that
+means less than 10 words are given
+so break right here
+strcby
+
+uh we want to pass each word to the the
+ten first words or the
+uh the first words to the word array
+after
+
+after
+we will
+
+write the algorithm down
+idf for its
+
+for each word
+log10
+i want to include
+include
+include cmath
+
+oh enter
+yes
+now
+uh
+where is the map up to gpp
+8
+get size we have to get size here
+because we will need it
+so
+we have to cast it double
+
+double map
+get size
+and
+minus
+double
+try
+deserts
+word
+or array of i
+zero
+and remember guys this is just the
+logarithm nothing more
+
+and
+so nothing really important to know over
+here
+you can
+write your own logarithm it's nothing
+too special
+and we'll divide hold this
+what you can take from that is that you
+have always to you know um when you have
+two integers and if you want to add or
+how to add
+from it or to it and you want to use the
+stub you have to cast them first
+this is already double so don't have to
+cast
+and again now
+division
+and
+like that
+and like that double
+
+try
+search
+this search
+word
+or what array
+y
+zero
+plus to 0.5
+and we have just written the
+logarithm pretty fast
+now we will call the try search
+and
+we will
+write our first new struct the score
+list
+so
+let's
+begin
+try
+try
+search
+quarray
+5
+zero
+here we have the score list
+
+so
+these
+what we'll do we'll find the search
+function with 5 all the
+deutsche
+first of all we'll write the
+the score list
+[Music]
+so
+ctrl n
+excuse me
+so ctrl and ctrl end
+
+score
+list dot
+and
+scoreless.cpp
+
+and inside here
+
+you will
+we will write
+
+it's
+the list of the scores
+of
+each word
+so
+of each document i mean excuse me
+so
+let's
+begin include
+iostream
+include
+stdlib
+and
+inside we will add the guard as well
+if not defined
+
+score list
+eight
+hostile defined scoreless dates
+and
+if
+perfect
+inside here we'll write our class
+class score list
+
+uh perfect
+um you have a
+we have the document id in id the id is
+about
+um
+the it's the id of the document that has
+the
+has a word of a search query
+that has a word that's contained inside
+the search query
+and we have a score list
+star next
+and
+we have a public right here
+public
+score list
+and
+the id document id
+called find one
+by default
+id
+the id
+and
+next equals null
+
+and
+we don't have a destructor we don't need
+one i think
+actually
+i think we need one
+
+uh yes we need one i destructor so i
+will write it down
+and
+
+so now we have written the score list
+down we will pass it to the make file as
+well
+score
+this.oh
+
+score list
+
+score list
+dot
+oh
+scoreless.gpp
+scoreless.h
+and
+like that
+
+perfect
+so let's make it a little bit right huh
+
+scoreless is not defined so we have to
+add scoreless
+to
+try not to date
+include
+scoreless dates we have to add it to
+it's how inside our
+search.8 i think
+uh
+include
+score list
+updates let's try again
+
+scoreless searches
+alternative
+score list yes because i forgot to
+create a score list and
+to create a new score list right here
+
+and we have to create
+right here in your score list
+
+star score
+
+now let's create the search function
+let's go to the
+to the try
+try
+node.a
+and
+the reason we are doing this is in order
+to create the search
+avoid search
+car star word
+in current index
+and score list
+start score list
+and
+try and know gbp
+avoid
+score
+research excuse me
+search car star board
+in car
+score
+score list star
+score list
+
+okay
+now we go to the
+search
+what we want to
+uh
+to have in south inside our
+
+what what we want to have inside
+
+our
+[Music]
+what we want to do about the search
+function is we want to pass
+a
+the id
+of the documents that the word of this
+query are
+in we want to pass all these ids inside
+our score list
+so the way for us to do so it's pretty
+simple
+we will go to
+the
+the search
+dot we will go to try not the gbp
+and inside here we will write the search
+function again
+it will no it will not be different from
+the other one but we'll have
+something a little bit different so if
+word
+car
+equals to value
+we'll follow the same path as before
+else
+
+identifier value is not defined
+
+most probably a little bug
+as you can see
+
+yes i forgot try note
+excuse me
+if
+equals sdr land world minus
+one
+if
+if a list
+different
+to null
+then we want to return
+list
+um pass
+documents
+and score list this will be a function
+that will read right right now
+else
+return so the past documents functions
+we go to the list
+and
+to list nodes here over here
+we go to
+list node over here
+and we will write a new function
+the new function will be void
+pass documents
+score list and the job the job of this
+function would be
+to to update the score list
+the score lists
+in order to
+to have inside all the appropriate ids
+so we go to
+listnode.cpp over here and we write down
+
+it will be pretty simple list node
+pass documents
+score
+
+i don't know
+and so score list
+insert
+id
+excuse me over here
+scoreless insert id
+score list is undefined
+uh
+include
+score list
+so we'll insert our id the the
+what we
+i will we will write the function in a
+moment
+we want to insert the current id
+and
+if next it's different to null go to the
+next as well
+
+and follow the same procedure
+
+so we go to scorly to
+to score list which will be right here
+we write down the function
+void insert
+which will have in the id
+and
+this function i think
+it will be pretty simple
+the insert function
+
+at the moment
+we go to
+we go to
+and inside here we will include
+scolisto dates
+we will use
+using
+name space oh my god
+namespace std
+and
+right here we will first write the
+destructor because we forgot
+previously
+score list
+score list
+
+if
+next
+different null
+delete next
+
+perfect
+and then of course it will delete itself
+and now
+now
+so let's begin
+void
+score list
+insert
+into the id
+if id of the score list equals equals
+the id that means that it's already
+inside
+and the the id of the document is
+already inside so we will return we
+don't
+need anything
+from it if id equals -1
+that means that the score list is not
+initialized so we write down our new
+
+our new document id
+else
+what we will do
+we will check for the next one if next
+equals equals to null
+then we will create a new document next
+equals new
+score list
+the id
+else
+next
+next insert do the same procedure
+recursively for all uh the list
+so
+this is
+it the score list
+[Music]
+
+and
+
+yes
+
+okay perfect now
+what is the mistake here in search
+called list has no scrolls has no member
+insert
+where's curly cpp this is insert
+
+call scroll little dates insert so it
+has an insert
+but list node has a bug again i think so
+let's close it one more time
+and
+list node
+i don't think yes perfect
+
+so everything is smooth
+and
+let's go to the search.cpp
+we have done the search
+where's our search
+okay
+so let's close everything because we
+have a
+pretty big difficulty
+knowing where to where we work on
+we make files close more data sets close
+so let's go to search gpp perfect
+let's go to
+scoreless.cpp perfect let's go to try
+node.gpp perfect where
+search is created
+so we we create the past documents just
+now i think
+uh
+inside try node list list and we don't
+we need the list node we create a list
+just now create
+the past document and now we need to
+create
+a search
+so we go to the try node and we check
+for the children again
+the child
+if
+child difference
+to null
+child search
+board
+car plus one
+score list
+else
+return
+
+if
+
+siblings different null
+
+sibling
+search
+board
+car
+score list
+else
+return
+so guys again what we are doing right
+now it's pretty simple
+we are taking if there are children then
+we will go recursively and check again
+and again if
+
+we will check again again
+if everything is
+[Music]
+will check if siblings if child if they
+are not that will return recursively
+back to our target
+so this is the search function let's go
+again back to our dot cpp
+
+so
+after we want to go to the next word so
+token equals
+str talk
+null
+
+like that
+
+now we want to find average
+
+we want to find
+the average
+
+um
+actually forgot something we may use
+later i
+and i in order to have the number of
+words that were given to us of course
+
+so let's get the average
+map size
+dab
+double
+average
+dl equals zero
+for
+in m
+equals zero m minus m
+
+get
+its size
+and plus plus
+avgdl
+plus
+equal
+
+actually like that
+um
+plus sequel
+and
+double map
+
+get
+length
+of m
+and now in order to get the average
+
+okay perfect
+and
+
+now we have a score
+double score equals zero
+
+we'll create a temporary
+list
+which will be equal to score list
+
+max heap now we will introduce our
+secondary
+um
+we'll introduce our secondary
+
+the second
+extract that i told you we will it's a
+hip
+a hip structure it's a very basic
+structure in c and
+actually generally it's a very very
+basic struct
+and today i will tell you how we will
+um
+how i will how we will implement it
+first of all
+we created the templates in order to
+iterate through all the score list
+that is the reason we create this
+this
+uh
+we'll create
+this pointer so let's now create
+the new
+the
+with a new function the new
+struct
+
+perfect
+now we have created all our structures
+let's add it here as well
+
+you
+
+perfect
+actually we haven't make it
+
+perfect it compiles no errors
+again
+let's pass
+some
+like that
+some header files over here
+like that we don't need to make file
+anymore
+let's
+write
+the guard
+if not
+defined
+max ship eight
+hashtag define
+exit page
+and if
+class
+max ship
+
+perfect
+and inside here we want to include
+
+maxship duct tapes
+so
+what we want is to iterate through
+yes to iterate through
+
+and now it's
+how we will
+now it's the important stuff of
+[Music]
+i will write down the important stuff
+of
+how we will
+[Music]
+implement let's say how we will
+have
+how we'll sort the scores
+and
+the scores how will be given we will
+check
+for each
+for each
+award for all the documents and will
+have a logarithm about it the idf is the
+logarithm
+and
+let me let me a second to explain to you
+better
+
+so
+the idf
+is actually
+it's actually considered from the logger
+that we get before
+and now in order to find the score
+uh
+to the score for each document its
+document will have a score
+and the score of its document is
+the
+the logarithm the logarithm is that let
+me
+for a second
+get it out to you
+
+this is the logarithm
+and the score d is the document
+and q is the query so um
+
+idf is
+that that we find before over here
+that
+and the f is
+the frequency
+of a given word inside the query and is
+the number of the words i
+through and so
+i through n
+and
+i devised for a specific word what was
+the score of the word and decide a free
+course of the word beside the document k
+will be as
+a constant that will write down b also
+will be according
+and
+this is how we will
+these the number of words inside
+the query inside the document
+because if
+in order for us to have a
+reliable
+query
+so
+this is what we will try to write down
+you can print it maybe actually
+let's zoom in a bit
+
+hi you hi you show me how to use me here
+
+yes i cannot find out so this is
+what we'll
+write down right now it won't be that
+easy
+it wouldn't be that difficult but we
+don't care about that because
+the purpose of this tutorial to
+know the logarithm is to
+know the basic struct on how a search
+engine a basic search engine works
+so let's delete this
+over here
+and
+excuse me
+and here we are
+
+so max heap
+
+so
+now we have created the max heap i will
+write
+first of all we'll go to search updates
+search updates that include the max heap
+include
+max heap and inside here we'll write
+
+max heap star
+chip equals new
+max heap
+the k will be the number of the words
+
+because the number of the results if you
+remember at the beginning when we write
+down for example
+minus k2 only two results will be given
+will be sold
+so here we want to initialize with a k
+
+as well
+so let's go to the max heap
+here
+and
+what we want to do is pretty simple
+
+max heap
+and k
+so we go to maxheap.cpp
+using
+namespace
+st
+and
+maxhip
+maxhip
+okay
+and inside here
+we will
+[Music]
+initialize
+
+the max ship
+so
+
+let me give me a second
+the heap will have
+some very important
+variables this will be public of course
+my pad
+perfect
+and
+
+uh will this will be a ship not like it
+will be an array like
+so double starship
+in star ids the ids
+and
+car number of scores
+
+and what is the maximum number of
+
+of documents scores
+and
+we will
+[Music]
+and after we will add some some function
+as well
+so
+from here
+and we go to the maximum.gpp we will
+create the insert
+function
+very fast
+i actually will create first of all the
+the function that will initialize max
+now of course k
+car
+number scores zero
+hip equals
+double star
+log
+max number scores
+size of double
+id's equals in star
+malloc
+max num of scores
+size of int
+
+right now have just created
+the hip
+and
+now
+let's go and
+do the logarithm that i told you about
+uh
+four
+excuse me while
+temple is different
+null
+for
+l equals 0 l minus y
+l plus plus
+score plus equals idf
+l
+
+i'm just writing down
+
+the logo is nothing more
+
+now
+let's write down the constants
+
+a const float
+k1 equals 1.2
+const float
+b equals 2.75
+
+score list score list
+to be
+
+i forgot to write i think
+yes inside score to score list
+uh
+let's write some functions call it star
+get next
+return
+next
+and
+it get id
+return id
+
+here we are
+
+t1 plus
+1.0
+
+tap double
+
+so all these will be divided
+
+by another part here
+double
+try
+tf search word
+
+um
+
+[Music]
+
+mistake again
+zero
+plus k1
+
+plus b
+
+i get the length
+of
+temp list
+get id
+
+perfect
+and of course at the end
+so
+this whole part was just for the score
+nothing you need to know here
+now
+hip insert
+hip insert
+score
+then list
+get id
+so we passed inside the hip
+and the score the id
+we
+we make the score zero again in order to
+prepare it for the legs and temp list
+get next
+to the next
+and seal we have will create a new one
+in c right here equals
+zero
+seals the number of the prints that will
+have at the end
+how many prints we will have
+so c plus plus sil
+c plus plus like that
+so now let's go to
+create the insert function for the heap
+
+let's go to the heap
+mix
+
+first of all for
+
+three ideas
+
+avoid insert
+double score
+and id
+so now
+let's
+actually we'll need some more functions
+for the insert
+just for the insert
+so
+um
+we'll have the remove of course
+max
+child
+and number one
+and number two
+and double remove
+we'll create all the functions right now
+get
+id
+return
+id ids the first id
+perfect
+[Music]
+and right here we need two secondary
+functions that will help us swap scores
+
+and
+index one
+and
+index two
+and mean index
+and low and high
+
+so
+perfect
+so now let's go to maxip.cpp
+and we have
+some code to write
+
+um
+
+actually i will i will write down at the
+next tutorial guys
+in order not to have a too large video i
+will name the next tutorial the next
+video about max heap
+so bye guys
+hello guys so at this part of the
+tutorial we'll talk about the max heap
+the max
+is a very widely used
+
+extract in c
+it is
+pretty simple actually
+not that difficult
+it has a
+insert
+time complexity all look gren
+and average and worst case
+and
+i will
+show you from wikipedia a simple stuff
+of a simple
+simply over here so
+this is a
+this is a min max heap
+
+no we want the max ship sorry
+binary heap
+ah here it is
+this is a magship
+that means that
+um
+every
+every level has lower level than the
+upper one so 100 19 17 3 2 7 as you can
+see
+this is a mini heap
+
+yes
+this is so this is a binary heap
+um
+if a new element is installed uh three
+for example here will be a new leg
+seven for example seven seven speaker
+three is bigger it will go here seven is
+bigger than nineteen no it's not so
+we'll stay here
+we'll stay seven here and three down
+there
+and
+and so on and so on nothing too special
+i suggest you study it a little bit
+it's very basic i suppose you know it
+what the heck is
+and we will write down the code to
+achieve a
+hip
+so
+
+let's start with the insert function
+[Music]
+
+in the index
+if car
+if car
+number scores
+card number of scores
+different to max num of scores
+
+i
+
+if card number scores different max
+number of scores
+then index fiction equals
+of scores and card number scores then
+plus plus
+
+else uh
+so now
+where we want to create a space so that
+if card number of scores equals my
+maximum that's me we have reached the
+the the capacity
+of the maximum capacity of our ship so
+we have to find a way
+to
+to free some space
+
+so
+the way is pretty simple
+
+and
+the waste is simple
+and
+temp
+index equals
+mini index
+max number of scores
+divided by two
+max
+number of scores
+we check what is the smallest index from
+those two
+and if
+score
+hip
+temp index
+is smaller than index it's bigger excuse
+me index equal temp index
+else
+else
+nothing will happen and as it is no
+space for it inside the hip
+so return
+
+um
+yes
+it will return
+and now we have to to
+write the mini index
+it's not that difficult
+we have
+inked
+max heap
+mean index
+and low and high
+
+and mean equals
+minus one
+the
+double
+mean score
+equals
+a really big number
+uh
+very big number
+for
+int i equals
+low
+i mine
+high
+i plus plus
+if
+hip
+of i
+mean score
+smaller than mean score
+then
+mean
+equals i
+and mean score
+equals heap i
+and return mean
+so what this function does get the
+minimum
+of all the leaves of the tree this is
+what that it does
+get the minimum
+it returns the minimum index
+uh
+behind it returns the minimum index
+and
+this is why this happens so
+ship
+index
+equals score
+ds index
+equals id
+while
+while hip
+index it's bigger
+that hip
+hip
+index minus one
+divided by two
+swap score
+swap scores
+index
+
+excuse me
+and that one here
+scrub those two
+and
+that right here
+change the index
+perfect
+and now we have to create the swap
+scores function
+for it
+it will be pretty easy
+that just will show up the index in the
+scores
+pretty fast
+void
+max heap
+swap
+scores
+index 1 and
+index 2
+double temp
+equals
+another not
+in order not to be casted wrongly as an
+integer that's why i'm initializing it
+like that
+hip
+index one
+and
+now we have to reverse all of them to
+reverse them
+so the way to do the show is temp
+and temp
+id
+equals
+ids
+in
+index one
+
+hip index one
+equals hip
+index 2
+
+hip
+index 2 equals
+
+with temp
+and
+following the same
+ideas
+index one
+equals
+its
+index 2
+ids
+index
+2
+equals temp id
+and everything is changed
+pretty much
+so swap scores is perfect
+
+and now i suggest we write
+
+we want to write the remove function
+let's check a little bit
+i want to let's let me remember the
+algorithm for a second
+
+yes we want to write the remove function
+
+um
+so the remove function is pretty simple
+uh every time we remove
+the header and then we take a leave and
+place it to the top and then we go we
+until we find uh
+then the leaf goes down the the value
+goes down until
+the max ship is correct again so
+
+let's
+write it
+we have two more functions to write
+the remove and match child which we will
+use inside the remove function
+and so
+double
+max heap
+remove
+index equals 0
+and we have
+a chosen
+child
+double
+return
+
+turn
+value equals to zero
+if
+car num of scores
+bigger than zero so we haven't our
+hippies has still something in it
+
+i made a mistake here
+
+and then return
+
+value
+equals
+0 which is the header of the heap
+
+and after a car
+number of scores equals
+equals minus
+minus minus
+hip 0
+goes with the
+last
+with the last leaf
+as i told you so hip car
+now of course
+like that
+and so ids goes the same
+
+and so this is
+what we will
+do right now
+chosen child
+equals
+max child
+from index one
+plus
+one
+index two
+plus two so index one and index two as
+you can imagine
+are um
+are they
+the children of
+them
+
+excuse me
+no index one my bad
+index index are
+as is a constant every
+is variable that if you are if you are
+two times index plus one you will go to
+the left side two plus index
+plus two
+times index plus two
+it goes to the second side
+so
+we will implement we will get the max
+child from these two very fast
+but
+wait a second
+
+so my child returns the biggest child
+from these two
+let's go with that so
+uh
+i even know there are no cheetahs will
+still return -1
+so if
+chosen child difference
+from -1
+and
+ship
+chosen child
+bigger
+than
+hip
+index
+then what we will do
+if
+white though
+i forgot to add the semicolon here
+and then we will have to sharp scores
+between the chosen child and the index
+
+as the chosen child
+has to be
+at the top of the hip
+
+else
+break
+and here right here will we have the
+return value
+
+now we'll write the
+max heap
+that's
+the magtile function
+
+if
+
+number one
+um
+it's smaller than card number scores and
+number two is more than kind number of
+scores
+that means that there is a left and the
+right child
+then we have to compare between the two
+of them
+number one number two and the indexes if
+you remember
+
+number two my
+smaller
+karnaugh of course
+
+if
+hip
+number one
+it's bigger than hip
+number
+two
+then return
+the biggest number one
+
+else
+
+return number
+two
+and
+number one number two perfect uh
+elsif number
+elsie number one is correct
+is inside the car now of scores
+
+then return number one
+
+else
+if
+
+else
+return
+minus one perfect
+so max keep is
+created correctly perfectly nice
+and let's go back to
+our
+searched ppp
+actually my child
+
+my child is undefined
+amongst hip
+with child
+mix
+
+yes
+
+ah
+
+uh
+
+perfect
+so we have just ridden the max heap
+
+let's go to our sets the cpp actually i
+don't think we will need anything from
+it right now
+this node score list if i don't remember
+anything
+so sets the tpcpp
+
+and where it is
+yes
+
+so uh
+we have to check if the seal is bigger
+bigger from k then we have to
+be sure that it's equals k
+and
+now i will show you
+
+the last part because before we go to
+the print
+which will be a separate video together
+the print
+the output
+and
+how we can achieve this
+extract
+wind size w
+yokt one
+std out
+fileno
+t
+ioc
+c g w
+i n c z
+
+and give me a second now
+search updates we'll have
+we want to include two two
+inside here
+
+we want to include these two
+
+so let's check it right now
+
+yes
+my pad
+
+yeah
+all right let me
+
+ah
+here
+
+let me try to write again because i
+made the mistake i think
+
+and
+see out
+
+dot rose for example
+
+now check it
+
+where we got stacked
+
+maybe
+i have passed something
+wrong
+i have rewritten the code so let me pass
+again
+the part here
+in order for us to be sure
+
+that nothing is wrong
+
+let me check again
+because
+the problem was inside
+
+this part
+
+somewhere it
+does not move
+
+site search monitor
+
+see at one here
+
+goes out from there
+so
+i guess this is where it will stack
+
+why though
+well then please
+ah yes oh my god pretty bad
+temp list
+equals that
+so
+let's try again
+
+23 is a row so if i
+as you can see it's 23
+the length if i make it like 15
+
+search hello
+15
+i think it's pretty amazing
+we get what the length the columns the
+columns we will care about and
+we will care about
+so at the next video we'll write the
+search functions bye guys
+see you at the next and the last video
+of our tutorial um so guys
+this is the last video of our
+tutorial
+and now i want to show you
+how i we want our last format to be
+so
+
+let me open my snipping tool again
+
+this is how
+the the format uh how we want the format
+to be
+and we wanted to have first of all
+um the three four one for example would
+be the logarithm
+the higher will be first
+and
+the the
+the first is the id of the
+of the document and these are the
+keywords that we want them to be
+underlined
+but in order for us to underline the
+correct words we must to find
+um where exactly are inside the line
+
+so this would be
+i think a little bit difficult
+so
+we have to begin
+and this is but this is the last the
+format that we want
+so
+let's start
+
+where we are yes
+so if you remember the seal is the
+number of
+the number
+of
+um
+c is the number uh
+of uh
+the results
+for
+int l equals zero l
+uh l plus plus so for its
+we go
+for each different
+print
+so
+int id equals hip
+get id
+
+if
+id equals equals minus one
+then we want to break
+because
+
+because that means
+that we have fi we have reached the end
+of our hip
+then
+now
+we if we haven't reached the end then we
+will return the top
+the
+return the top score
+the biggest score so score
+equals
+doubly
+ship
+remove
+and we want to print
+the id
+if you remember
+we won't
+do to
+print the id
+
+see out
+like that
+i id
+and
+now i have calculated
+the number
+in order
+uh let me show you one more time
+
+i have calculated
+snipping
+
+i have calculated the number from here
+to
+here this is 10
+that's why
+you will see that i use
+10.
+
+um
+excuse me no not for that i will explain
+to you in a second the tent that we'll
+use right now is for normalization
+
+while
+i did
+my
+different from zero
+
+this would never be zero but because the
+id is an integer when we divide from the
+uh with he
+sometimes it will be a
+double
+and so it will be zero for example
+one
+divided by 10 will give us zero
+
+f plus plus
+so
+now
+we know
+how big
+the ideas of the
+of the document how big the ideas of the
+document
+now we want to
+to
+to create a normalization
+so
+while
+five
+minus f
+we use five because we're saying that
+we're using like 10 000 documents on 99
+999 but if we had more documents we
+would use six seven eight no problem it
+would be the same
+just one line of code would change
+see out
+like that
+see out the space
+and f plus plus
+perfect
+and now
+and we want to print the score the
+expose that we want the score to have a
+certain
+degree of precision in order to
+be sure
+that it will not destroy
+the lines
+so
+the way to do so is pretty simple again
+print f
+i'm going to close
+from before this is this is from here we
+want to close it
+
+and
+like that
+
+perfect precision
+and the score
+now we'll get the line
+
+it
+won't be that difficult
+from now on that was the difficult
+to understand part
+so from here
+excuse me
+from here uh we will go like that
+i will
+get the line
+car start
+line card start
+my log
+map
+get
+buffer size
+i think
+size of
+car
+
+yes
+strcp why
+line
+with map
+get document
+id
+
+we have now the car start them
+
+temp equals str talk
+line
+
+and so now we'll initialize some basic
+values
+first of all
+we want
+we want to know where
+the current length is where we are
+in terms of our lines
+so in car
+length because now we are beginning
+equals zero
+in counter
+the counter will
+check if we are the first line of its
+answer
+if you and if you know what i mean uh
+this is what i mean this is the first
+line so if we had quick brown brown
+foxes leaked over lazy dogs for fun and
+then
+the
+it will continue with the second line
+right here this is the first line this
+is the second line
+so this is what the counter will count
+
+in
+new line equals one we'll check if we
+have a new line in line flag
+if we must underline words under this
+line
+
+and in underline
+
+contains
+the place that we must underline
+exactly and
+
+and to you counter is an underlying
+counter nothing more
+so
+while
+temp
+different
+to null
+
+now we'll check if it is a line if it is
+a new line
+and then the current length is already
+20 because we don't have a
+we don't have all this stuff at the
+beginning excuse me
+
+excuse me
+because we don't have all the stuff at
+the beginning so we have to add 20
+so
+how we'll do this pretty simple
+car length
+
+and we want to add some spaces at the
+front
+
+perfect
+and now the new line will be zero
+
+and
+
+now
+after that
+for
+n equals zero and my
+smaller than i n plus plus
+
+and we want to check
+
+check if we want to check if a word is
+inside a line a specific line
+so
+we want to check the temp
+um
+i want to check if a word is inside the
+line
+
+pretty simple
+so
+if it is inside the line
+
+then
+if car
+length plus sdr strlen
+then
+plus one
+uh
+make one
+it's smaller than w usual call
+
+then
+underline
+zero
+and counter
+strength
+and counter you counter excuse me
+oh my god what i'm writing
+you counter it's the underline counter
+that
+equals
+with current
+length
+underlined
+one
+you counter
+equals still and temp
+
+you counter plus plus because we will go
+to the next position and line flag
+equals one
+this means that at this
+at this line we have
+we have something to underline
+so
+after the for loop
+we go after
+and we go
+
+wait a moment
+car length
+str land
+temp plus one
+we increase the no
+we increase the column that we are at
+we go to the next column
+and
+hey we have we because we have written a
+word
+that we have to underline
+that's why we are increasing the number
+of columns that we have to pass
+in order to go to the correct position
+again of the current length so if
+car length
+-1
+it's bigger
+that
+w w us
+call
+and then current length will be ten to
+zero again
+
+again new line will be 2 equals to 1
+c out
+and l
+and
+if
+line flag
+if you had words on the line then we
+will have to
+to output
+the new words
+uh will have
+[Music]
+to output
+these little
+these little symbols over here
+whenever it is
+need
+it is needed
+so
+if line flag
+car start
+output
+line
+car start my lock
+excuse me
+
+car star
+the size should be
+the
+
+plus one
+times size of car of course
+
+for
+entertain equal zero
+j
+smaller
+call j plus plus
+and
+we want to
+uh
+we want to initialize all the output
+line in order for it to be z to be empty
+so
+
+in order for it to be empty so what
+we'll do now is
+output
+line equals
+empty
+of j of course
+equals empty and of course we want to
+
+and we want
+um
+the last the last part of the line other
+the last part should be
+output line
+
+will be a terminating character
+in order to be sure that everything is
+okay
+and the line flag
+should be equals to zero because right
+now we have to initialize again
+
+yes okay
+uh
+so we re initialize
+line flag we reverse it to the starting
+point
+for
+um
+after we have to place where
+the little symbols wherever is needed so
+for
+j equals zero
+j smaller you counter
+j plus plus
+four
+into v
+equals
+underlined zero
+and j
+uh
+with smaller underline
+on the line
+zero and ji 10
+
+plus underline one day
+
+uh
+
+actually we won't need
+like that so
+the output line should be filled
+with
+
+but um
+
+a ucounter
+equal to zero c out
+output
+line
+and
+free output
+line
+
+and
+we have free the output line
+
+if it doesn't go
+
+we want to continue here
+and
+if everything is okay it is not then we
+want to
+see out
+the temp
+the rest of the temp
+and temp equals str talk
+null
+
+again counter
+plus plus
+
+uh
+
+i am
+
+oh my god i forgot
+oh it was bad
+well then it's different to null
+should go
+but
+
+yes
+i was like
+why
+
+so perfect like that
+and here after when with when every word
+is finished
+we will call endel from the from
+so what we're doing now we're taking
+from the map every word separately
+and
+uh
+yes we take every word separately
+and when we finish we check every word
+if it is inside the word that we have to
+underline
+if it is decide that we underline it
+else
+go to the next
+so
+um
+when when the
+here when the line is finished out and
+then
+free the line
+and three of course attempt again
+
+like that
+now we want to delete the hip
+delete the score list
+and
+see out and then
+so
+
+yeah
+so let's see
+i think
+i think guys i forgot something here so
+here we are
+it goes right here here
+it goes right here
+here here
+okay
+while
+four
+ah this is the problem
+we have uh
+
+oh no for loop is like
+it's correct
+i guess this is wrong
+so let's take it again perfect
+
+search hello
+
+hello guys how are you
+
+um
+well
+we have
+i think a major mistake somewhere
+but
+the part about
+underlining x-correct let's exit
+we have zero errors
+so let's
+let's not fall grind because we'll take
+a lot of time
+let's
+do the same with a big data set
+
+let's wait a little bit you will see how
+fast it is when we don't run while grind
+
+as you can see it was pretty fast
+and
+so
+search hello
+yes we have a problem
+
+a certified
+
+yes here we are
+
+okay
+we have a problem so let's fix it a
+little bit
+
+whenever
+i think i know where the problem is
+
+i forgot
+i forgot
+here
+pretty
+to check if it's a new line if
+a new line
+
+if new line
+then
+
+like that
+like that
+and now
+let's check it again
+
+so search
+hello
+perfect
+we go like that in front
+
+search find
+hello
+here we are
+as you can see
+it creates an empty line whenever
+whenever a word is found that we are
+searching for
+and now we i will write a big
+a big query let's let's
+write all this as a query
+
+so
+if i go to the first text of course
+
+these are the two
+main
+articles that
+have the best
+that have the best
+points
+and now
+now let's uh how let's change it a
+little bit let's go exit
+let's call again with like
+10.
+10 results not that
+small
+
+because i gave it
+and then empty nose no
+i don't understand why
+
+so
+search
+
+now
+and
+then documents are shown
+
+one two
+
+three four
+oh no my
+one two three four
+five
+six
+seven eight nine ten ten documents
+uh
+so
+this was our search engine
+if wow so if we write that
+
+as you can see it found exactly the
+the article that we are searching for
+that didn't show you they will
+so if we're searching like a user so so
+for example
+uh joe pave
+great and the book for example
+joe pave great andy burke
+let's write
+uh search
+joe
+pave
+great
+and
+so
+let me check
+
+top
+
+here
+here great britain
+and so as you can see it works pretty
+much like a regular search engine
+um we learned some stuff pretty
+important stuff at this course
+i think
+i think it was very very interesting as
+you will learn a lot of struggles
+such as
+um
+such as
+um
+mapping assets
+max keep a try
+a list
+arrays and
+you know how you can
+use memory efficiently
+so guys i hope you learned a lot through
+this tutorial it was
+really fun for me
+and see you at the next
+tutorial
+project so
+bye guys from me see you soon
+[Music]
+
+you
