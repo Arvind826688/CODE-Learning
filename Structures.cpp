@@ -40,5 +40,5 @@ int main(){
     TestStructure4.TestString2 = " i don't know " ;
 
 
-    //DOING THE SAME THING BUT 
-}
+
+    }
